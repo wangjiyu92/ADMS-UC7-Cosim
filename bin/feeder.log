@@ -1,0 +1,1064 @@
+SCENARIO NAME: test40
+MASTER DSS FILE: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\inputs\opendss\Model_UC7\Master_primary.dss
+_feeder loads
+_self.houses
+Check Setup
+2023-10-19 17:09:08.896998 - Feeder at 2019-01-01 00:00:00: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder
+2023-10-19 17:09:08.896998 - Feeder at 2019-01-01 00:00:00: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder
+2023-10-19 17:09:08.896998 - Feeder at 2019-01-01 00:00:00: Initializing Agent...
+DSS Compiling...
+DSS Compiled Circuit: substation_p12uhs6_69
+Status = SOLVED
+Solution Mode = Snap
+Number = 1
+Load Mult = 1.000
+Devices = 22214
+Buses = 11733
+Nodes = 22078
+Control Mode =Static
+Total Iterations = 2
+Control Iterations = 1
+Max Sol Iter = 2
+ 
+ - Circuit Summary -
+ 
+Year = 0 
+Hour = 0 
+Max pu. voltage = 1.0358 
+Min pu. voltage = 0.95478 
+Total Active Power:   15.9267 MW
+Total Reactive Power: 4.8335 Mvar
+Total Active Losses:   0.330431 MW, (2.075 %)
+Total Reactive Losses: 0.700524 Mvar
+Frequency = 60 Hz
+Mode = Snap
+Control Mode = Static
+Load Model = PowerFlow
+check A
+2023-10-19 17:09:11.713390 - Feeder at 2019-01-01 00:00:00: Time to initialize: 0:00:02.816392
+2023-10-19 17:09:11.713390 - Feeder at 2019-01-01 00:00:00: Creating Federate (Helics version: 3.1.2 (2022-01-25))
+_DOOM subscriptions
+2023-10-19 17:09:11.876781 - Feeder at 2019-01-01 00:00:00: Federate initialized. Waiting for other federates...
+2023-10-19 17:09:11.876781 - Feeder at 2019-01-01 00:00:00: Federate entering execution mode
+2023-10-19 17:09:11.876781 - Feeder at 2019-01-01 00:00:00: Beginning Co-simulation
+2023-10-19 17:09:11.886777 - Feeder at 2019-01-01 00:00:00: Running action: Run Feeder
+2023-10-19 17:09:11.886777 - Feeder at 2019-01-01 00:00:00: No new data from subscription: rtds_to_feeder
+2023-10-19 17:09:11.886777 - Feeder at 2019-01-01 00:00:00: No new data from subscription: rtac_to_feeder
+Start read csv
+2023-10-19 17:09:11.905294
+2023-10-19 17:09:12.055217
+1
+2023-10-19 17:09:12.135176 - Feeder at 2019-01-01 00:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224470476423}
+2023-10-19 17:09:12.135176 - Feeder at 2019-01-01 00:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224470476423}
+2023-10-19 17:09:12.414039 - Feeder at 2019-01-01 00:00:00: Running action: Save Results
+2023-10-19 17:09:12.703885 - Feeder at 2019-01-01 00:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:13.063693 - Feeder at 2019-01-01 00:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:13.323585 - Feeder at 2019-01-01 00:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:13.403511 - Feeder at 2019-01-01 00:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:13.403511 - Feeder at 2019-01-01 00:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:13.433494 - Feeder at 2019-01-01 00:15:00: Running action: Run Feeder
+2023-10-19 17:09:13.443489 - Feeder at 2019-01-01 00:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:13.443489 - Feeder at 2019-01-01 00:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:13.453515
+2023-10-19 17:09:13.587155
+2
+2023-10-19 17:09:13.627166 - Feeder at 2019-01-01 00:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459222275}
+2023-10-19 17:09:13.627166 - Feeder at 2019-01-01 00:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459222275}
+2023-10-19 17:09:13.953573 - Feeder at 2019-01-01 00:30:00: Running action: Run Feeder
+2023-10-19 17:09:13.953573 - Feeder at 2019-01-01 00:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:13.953573 - Feeder at 2019-01-01 00:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:13.973562
+2023-10-19 17:09:14.123481
+3
+2023-10-19 17:09:14.183450 - Feeder at 2019-01-01 00:30:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459195694}
+2023-10-19 17:09:14.183450 - Feeder at 2019-01-01 00:30:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459195694}
+2023-10-19 17:09:14.503280 - Feeder at 2019-01-01 00:45:00: Running action: Run Feeder
+2023-10-19 17:09:14.503280 - Feeder at 2019-01-01 00:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:14.503280 - Feeder at 2019-01-01 00:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:14.523269
+2023-10-19 17:09:14.673187
+4
+2023-10-19 17:09:14.713743 - Feeder at 2019-01-01 00:45:00: Publishing on feeder_to_rtds: {'V1': 1.039222445918909}
+2023-10-19 17:09:14.713743 - Feeder at 2019-01-01 00:45:00: Publishing on feeder_to_rtac: {'V1': 1.039222445918909}
+2023-10-19 17:09:15.013100 - Feeder at 2019-01-01 01:00:00: Running action: Run Feeder
+2023-10-19 17:09:15.013100 - Feeder at 2019-01-01 01:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:15.013100 - Feeder at 2019-01-01 01:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:15.023129
+2023-10-19 17:09:15.173014
+5
+2023-10-19 17:09:15.212993 - Feeder at 2019-01-01 01:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459180441}
+2023-10-19 17:09:15.212993 - Feeder at 2019-01-01 01:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459180441}
+2023-10-19 17:09:15.612780 - Feeder at 2019-01-01 01:00:00: Running action: Save Results
+2023-10-19 17:09:15.837959 - Feeder at 2019-01-01 01:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:16.107815 - Feeder at 2019-01-01 01:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:16.457629 - Feeder at 2019-01-01 01:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:16.627537 - Feeder at 2019-01-01 01:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:16.627537 - Feeder at 2019-01-01 01:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:16.657520 - Feeder at 2019-01-01 01:15:00: Running action: Run Feeder
+2023-10-19 17:09:16.657520 - Feeder at 2019-01-01 01:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:16.657520 - Feeder at 2019-01-01 01:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:16.677509
+2023-10-19 17:09:16.807440
+6
+2023-10-19 17:09:16.847421 - Feeder at 2019-01-01 01:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459186457}
+2023-10-19 17:09:16.847421 - Feeder at 2019-01-01 01:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459186457}
+2023-10-19 17:09:17.165262 - Feeder at 2019-01-01 01:30:00: Running action: Run Feeder
+2023-10-19 17:09:17.165262 - Feeder at 2019-01-01 01:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:17.165262 - Feeder at 2019-01-01 01:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:17.175256
+2023-10-19 17:09:17.325172
+7
+2023-10-19 17:09:17.365151 - Feeder at 2019-01-01 01:30:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459187713}
+2023-10-19 17:09:17.365151 - Feeder at 2019-01-01 01:30:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459187713}
+2023-10-19 17:09:17.675075 - Feeder at 2019-01-01 01:45:00: Running action: Run Feeder
+2023-10-19 17:09:17.675075 - Feeder at 2019-01-01 01:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:17.675075 - Feeder at 2019-01-01 01:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:17.685069
+2023-10-19 17:09:17.820231
+8
+2023-10-19 17:09:17.850215 - Feeder at 2019-01-01 01:45:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459208044}
+2023-10-19 17:09:17.850215 - Feeder at 2019-01-01 01:45:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459208044}
+2023-10-19 17:09:18.180039 - Feeder at 2019-01-01 02:00:00: Running action: Run Feeder
+2023-10-19 17:09:18.180039 - Feeder at 2019-01-01 02:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:18.180039 - Feeder at 2019-01-01 02:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:18.190033
+2023-10-19 17:09:18.337471
+9
+2023-10-19 17:09:18.377450 - Feeder at 2019-01-01 02:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459201835}
+2023-10-19 17:09:18.377450 - Feeder at 2019-01-01 02:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459201835}
+2023-10-19 17:09:18.669885 - Feeder at 2019-01-01 02:00:00: Running action: Save Results
+2023-10-19 17:09:18.821109 - Feeder at 2019-01-01 02:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:19.043813 - Feeder at 2019-01-01 02:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:19.319324 - Feeder at 2019-01-01 02:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:19.479305 - Feeder at 2019-01-01 02:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:19.481312 - Feeder at 2019-01-01 02:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:19.509324 - Feeder at 2019-01-01 02:15:00: Running action: Run Feeder
+2023-10-19 17:09:19.509324 - Feeder at 2019-01-01 02:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:19.509324 - Feeder at 2019-01-01 02:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:19.529314
+2023-10-19 17:09:19.669240
+10
+2023-10-19 17:09:19.709219 - Feeder at 2019-01-01 02:15:00: Publishing on feeder_to_rtds: {'V1': 1.03922244591868}
+2023-10-19 17:09:19.709219 - Feeder at 2019-01-01 02:15:00: Publishing on feeder_to_rtac: {'V1': 1.03922244591868}
+2023-10-19 17:09:20.003389 - Feeder at 2019-01-01 02:30:00: Running action: Run Feeder
+2023-10-19 17:09:20.003389 - Feeder at 2019-01-01 02:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:20.003389 - Feeder at 2019-01-01 02:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:20.023379
+2023-10-19 17:09:20.162857
+11
+2023-10-19 17:09:20.212831 - Feeder at 2019-01-01 02:30:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459178274}
+2023-10-19 17:09:20.212831 - Feeder at 2019-01-01 02:30:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459178274}
+2023-10-19 17:09:20.523967 - Feeder at 2019-01-01 02:45:00: Running action: Run Feeder
+2023-10-19 17:09:20.523967 - Feeder at 2019-01-01 02:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:20.523967 - Feeder at 2019-01-01 02:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:20.543955
+2023-10-19 17:09:20.673912
+12
+2023-10-19 17:09:20.716210 - Feeder at 2019-01-01 02:45:00: Publishing on feeder_to_rtds: {'V1': 1.039222445918283}
+2023-10-19 17:09:20.716210 - Feeder at 2019-01-01 02:45:00: Publishing on feeder_to_rtac: {'V1': 1.039222445918283}
+2023-10-19 17:09:21.016517 - Feeder at 2019-01-01 03:00:00: Running action: Run Feeder
+2023-10-19 17:09:21.016517 - Feeder at 2019-01-01 03:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:21.016517 - Feeder at 2019-01-01 03:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:21.036509
+2023-10-19 17:09:21.176464
+13
+2023-10-19 17:09:21.216413 - Feeder at 2019-01-01 03:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459204251}
+2023-10-19 17:09:21.216413 - Feeder at 2019-01-01 03:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459204251}
+2023-10-19 17:09:21.504283 - Feeder at 2019-01-01 03:00:00: Running action: Save Results
+2023-10-19 17:09:21.674177 - Feeder at 2019-01-01 03:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:21.899009 - Feeder at 2019-01-01 03:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:22.212438 - Feeder at 2019-01-01 03:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:22.376431 - Feeder at 2019-01-01 03:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:22.376431 - Feeder at 2019-01-01 03:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:22.404428 - Feeder at 2019-01-01 03:15:00: Running action: Run Feeder
+2023-10-19 17:09:22.404428 - Feeder at 2019-01-01 03:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:22.404428 - Feeder at 2019-01-01 03:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:22.424417
+2023-10-19 17:09:22.555150
+14
+2023-10-19 17:09:22.594694 - Feeder at 2019-01-01 03:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459190103}
+2023-10-19 17:09:22.594694 - Feeder at 2019-01-01 03:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459190103}
+2023-10-19 17:09:22.906174 - Feeder at 2019-01-01 03:30:00: Running action: Run Feeder
+2023-10-19 17:09:22.906174 - Feeder at 2019-01-01 03:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:22.906174 - Feeder at 2019-01-01 03:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:22.916170
+2023-10-19 17:09:23.056182
+15
+2023-10-19 17:09:23.096161 - Feeder at 2019-01-01 03:30:00: Publishing on feeder_to_rtds: {'V1': 1.039222445921017}
+2023-10-19 17:09:23.096161 - Feeder at 2019-01-01 03:30:00: Publishing on feeder_to_rtac: {'V1': 1.039222445921017}
+2023-10-19 17:09:23.425985 - Feeder at 2019-01-01 03:45:00: Running action: Run Feeder
+2023-10-19 17:09:23.425985 - Feeder at 2019-01-01 03:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:23.425985 - Feeder at 2019-01-01 03:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:23.435979
+2023-10-19 17:09:23.568289
+16
+2023-10-19 17:09:23.615824 - Feeder at 2019-01-01 03:45:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459193165}
+2023-10-19 17:09:23.615824 - Feeder at 2019-01-01 03:45:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459193165}
+2023-10-19 17:09:23.960850 - Feeder at 2019-01-01 04:00:00: Running action: Run Feeder
+2023-10-19 17:09:23.960850 - Feeder at 2019-01-01 04:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:23.960850 - Feeder at 2019-01-01 04:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:23.980841
+2023-10-19 17:09:24.140755
+17
+2023-10-19 17:09:24.180735 - Feeder at 2019-01-01 04:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459196495}
+2023-10-19 17:09:24.180735 - Feeder at 2019-01-01 04:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459196495}
+2023-10-19 17:09:24.488087 - Feeder at 2019-01-01 04:00:00: Running action: Save Results
+2023-10-19 17:09:24.668023 - Feeder at 2019-01-01 04:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:24.907864 - Feeder at 2019-01-01 04:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:25.187878 - Feeder at 2019-01-01 04:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:25.347799 - Feeder at 2019-01-01 04:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:25.347799 - Feeder at 2019-01-01 04:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:25.387770 - Feeder at 2019-01-01 04:15:00: Running action: Run Feeder
+2023-10-19 17:09:25.387770 - Feeder at 2019-01-01 04:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:25.387770 - Feeder at 2019-01-01 04:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:25.397798
+2023-10-19 17:09:25.540322
+18
+2023-10-19 17:09:25.580344 - Feeder at 2019-01-01 04:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459171018}
+2023-10-19 17:09:25.580344 - Feeder at 2019-01-01 04:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459171018}
+2023-10-19 17:09:25.933005 - Feeder at 2019-01-01 04:30:00: Running action: Run Feeder
+2023-10-19 17:09:25.933005 - Feeder at 2019-01-01 04:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:25.933005 - Feeder at 2019-01-01 04:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:25.952993
+2023-10-19 17:09:26.103007
+19
+2023-10-19 17:09:26.145131 - Feeder at 2019-01-01 04:30:00: Publishing on feeder_to_rtds: {'V1': 1.039222445918447}
+2023-10-19 17:09:26.145131 - Feeder at 2019-01-01 04:30:00: Publishing on feeder_to_rtac: {'V1': 1.039222445918447}
+2023-10-19 17:09:26.493846 - Feeder at 2019-01-01 04:45:00: Running action: Run Feeder
+2023-10-19 17:09:26.493846 - Feeder at 2019-01-01 04:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:26.493846 - Feeder at 2019-01-01 04:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:26.503841
+2023-10-19 17:09:26.640782
+20
+2023-10-19 17:09:26.690791 - Feeder at 2019-01-01 04:45:00: Publishing on feeder_to_rtds: {'V1': 1.039222445917516}
+2023-10-19 17:09:26.690791 - Feeder at 2019-01-01 04:45:00: Publishing on feeder_to_rtac: {'V1': 1.039222445917516}
+2023-10-19 17:09:27.001263 - Feeder at 2019-01-01 05:00:00: Running action: Run Feeder
+2023-10-19 17:09:27.001263 - Feeder at 2019-01-01 05:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:27.001263 - Feeder at 2019-01-01 05:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:27.011231
+2023-10-19 17:09:27.161181
+21
+2023-10-19 17:09:27.201132 - Feeder at 2019-01-01 05:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459167454}
+2023-10-19 17:09:27.201132 - Feeder at 2019-01-01 05:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459167454}
+2023-10-19 17:09:27.500970 - Feeder at 2019-01-01 05:00:00: Running action: Save Results
+2023-10-19 17:09:27.670947 - Feeder at 2019-01-01 05:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:27.926049 - Feeder at 2019-01-01 05:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:28.251240 - Feeder at 2019-01-01 05:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:28.423074 - Feeder at 2019-01-01 05:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:28.425086 - Feeder at 2019-01-01 05:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:28.453144 - Feeder at 2019-01-01 05:15:00: Running action: Run Feeder
+2023-10-19 17:09:28.453144 - Feeder at 2019-01-01 05:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:28.453144 - Feeder at 2019-01-01 05:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:28.473134
+2023-10-19 17:09:28.618782
+22
+2023-10-19 17:09:28.658761 - Feeder at 2019-01-01 05:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459175152}
+2023-10-19 17:09:28.658761 - Feeder at 2019-01-01 05:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459175152}
+2023-10-19 17:09:28.998578 - Feeder at 2019-01-01 05:30:00: Running action: Run Feeder
+2023-10-19 17:09:28.998578 - Feeder at 2019-01-01 05:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:28.998578 - Feeder at 2019-01-01 05:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:29.018567
+2023-10-19 17:09:29.158493
+23
+2023-10-19 17:09:29.198471 - Feeder at 2019-01-01 05:30:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459195283}
+2023-10-19 17:09:29.198471 - Feeder at 2019-01-01 05:30:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459195283}
+2023-10-19 17:09:29.498312 - Feeder at 2019-01-01 05:45:00: Running action: Run Feeder
+2023-10-19 17:09:29.498312 - Feeder at 2019-01-01 05:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:29.498312 - Feeder at 2019-01-01 05:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:29.518301
+2023-10-19 17:09:29.670749
+24
+2023-10-19 17:09:29.703252 - Feeder at 2019-01-01 05:45:00: Publishing on feeder_to_rtds: {'V1': 1.039222445917782}
+2023-10-19 17:09:29.703252 - Feeder at 2019-01-01 05:45:00: Publishing on feeder_to_rtac: {'V1': 1.039222445917782}
+2023-10-19 17:09:30.044852 - Feeder at 2019-01-01 06:00:00: Running action: Run Feeder
+2023-10-19 17:09:30.044852 - Feeder at 2019-01-01 06:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:30.044852 - Feeder at 2019-01-01 06:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:30.064776
+2023-10-19 17:09:30.204701
+25
+2023-10-19 17:09:30.244682 - Feeder at 2019-01-01 06:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459210162}
+2023-10-19 17:09:30.244682 - Feeder at 2019-01-01 06:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459210162}
+2023-10-19 17:09:30.550720 - Feeder at 2019-01-01 06:00:00: Running action: Save Results
+2023-10-19 17:09:30.732284 - Feeder at 2019-01-01 06:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:30.973399 - Feeder at 2019-01-01 06:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:31.258431 - Feeder at 2019-01-01 06:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:31.428610 - Feeder at 2019-01-01 06:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:31.430692 - Feeder at 2019-01-01 06:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:31.458691 - Feeder at 2019-01-01 06:15:00: Running action: Run Feeder
+2023-10-19 17:09:31.458691 - Feeder at 2019-01-01 06:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:31.458691 - Feeder at 2019-01-01 06:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:31.478720
+2023-10-19 17:09:31.618605
+26
+2023-10-19 17:09:31.658618 - Feeder at 2019-01-01 06:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459182948}
+2023-10-19 17:09:31.658618 - Feeder at 2019-01-01 06:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459182948}
+2023-10-19 17:09:31.996776 - Feeder at 2019-01-01 06:30:00: Running action: Run Feeder
+2023-10-19 17:09:31.996776 - Feeder at 2019-01-01 06:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:31.996776 - Feeder at 2019-01-01 06:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:32.006809
+2023-10-19 17:09:32.155711
+27
+2023-10-19 17:09:32.195685 - Feeder at 2019-01-01 06:30:00: Publishing on feeder_to_rtds: {'V1': 1.039222445920725}
+2023-10-19 17:09:32.195685 - Feeder at 2019-01-01 06:30:00: Publishing on feeder_to_rtac: {'V1': 1.039222445920725}
+2023-10-19 17:09:32.535502 - Feeder at 2019-01-01 06:45:00: Running action: Run Feeder
+2023-10-19 17:09:32.535502 - Feeder at 2019-01-01 06:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:32.535502 - Feeder at 2019-01-01 06:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:32.545535
+2023-10-19 17:09:32.685646
+28
+2023-10-19 17:09:32.725626 - Feeder at 2019-01-01 06:45:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459168078}
+2023-10-19 17:09:32.725626 - Feeder at 2019-01-01 06:45:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459168078}
+2023-10-19 17:09:33.048161 - Feeder at 2019-01-01 07:00:00: Running action: Run Feeder
+2023-10-19 17:09:33.048161 - Feeder at 2019-01-01 07:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:33.048161 - Feeder at 2019-01-01 07:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:33.057669
+2023-10-19 17:09:33.197632
+29
+2023-10-19 17:09:33.247579 - Feeder at 2019-01-01 07:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459209622}
+2023-10-19 17:09:33.247579 - Feeder at 2019-01-01 07:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459209622}
+2023-10-19 17:09:33.533057 - Feeder at 2019-01-01 07:00:00: Running action: Save Results
+2023-10-19 17:09:33.702516 - Feeder at 2019-01-01 07:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:33.933498 - Feeder at 2019-01-01 07:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:34.258259 - Feeder at 2019-01-01 07:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:34.417783 - Feeder at 2019-01-01 07:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:34.419797 - Feeder at 2019-01-01 07:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:34.457800 - Feeder at 2019-01-01 07:15:00: Running action: Run Feeder
+2023-10-19 17:09:34.457800 - Feeder at 2019-01-01 07:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:34.457800 - Feeder at 2019-01-01 07:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:34.467801
+2023-10-19 17:09:34.617714
+30
+2023-10-19 17:09:34.657696 - Feeder at 2019-01-01 07:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459197374}
+2023-10-19 17:09:34.657696 - Feeder at 2019-01-01 07:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459197374}
+2023-10-19 17:09:34.997515 - Feeder at 2019-01-01 07:30:00: Running action: Run Feeder
+2023-10-19 17:09:34.997515 - Feeder at 2019-01-01 07:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:34.997515 - Feeder at 2019-01-01 07:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:35.017501
+2023-10-19 17:09:35.167420
+31
+2023-10-19 17:09:35.227388 - Feeder at 2019-01-01 07:30:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459205774}
+2023-10-19 17:09:35.227388 - Feeder at 2019-01-01 07:30:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459205774}
+2023-10-19 17:09:35.577544 - Feeder at 2019-01-01 07:45:00: Running action: Run Feeder
+2023-10-19 17:09:35.577544 - Feeder at 2019-01-01 07:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:35.577544 - Feeder at 2019-01-01 07:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:35.597570
+2023-10-19 17:09:35.742766
+32
+2023-10-19 17:09:35.792742 - Feeder at 2019-01-01 07:45:00: Publishing on feeder_to_rtds: {'V1': 1.03922244591995}
+2023-10-19 17:09:35.792742 - Feeder at 2019-01-01 07:45:00: Publishing on feeder_to_rtac: {'V1': 1.03922244591995}
+2023-10-19 17:09:36.135370 - Feeder at 2019-01-01 08:00:00: Running action: Run Feeder
+2023-10-19 17:09:36.135370 - Feeder at 2019-01-01 08:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:36.135370 - Feeder at 2019-01-01 08:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:36.155363
+2023-10-19 17:09:36.325271
+33
+2023-10-19 17:09:36.365252 - Feeder at 2019-01-01 08:00:00: Publishing on feeder_to_rtds: {'V1': 1.0394208554977302}
+2023-10-19 17:09:36.365252 - Feeder at 2019-01-01 08:00:00: Publishing on feeder_to_rtac: {'V1': 1.0394208554977302}
+2023-10-19 17:09:36.675082 - Feeder at 2019-01-01 08:00:00: Running action: Save Results
+2023-10-19 17:09:36.844990 - Feeder at 2019-01-01 08:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:37.089948 - Feeder at 2019-01-01 08:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:37.379792 - Feeder at 2019-01-01 08:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:37.569709 - Feeder at 2019-01-01 08:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:37.569709 - Feeder at 2019-01-01 08:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:37.600412 - Feeder at 2019-01-01 08:15:00: Running action: Run Feeder
+2023-10-19 17:09:37.600412 - Feeder at 2019-01-01 08:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:37.600412 - Feeder at 2019-01-01 08:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:37.610439
+2023-10-19 17:09:37.775101
+34
+2023-10-19 17:09:37.815121 - Feeder at 2019-01-01 08:15:00: Publishing on feeder_to_rtds: {'V1': 1.0394208554931712}
+2023-10-19 17:09:37.815121 - Feeder at 2019-01-01 08:15:00: Publishing on feeder_to_rtac: {'V1': 1.0394208554931712}
+2023-10-19 17:09:38.134908 - Feeder at 2019-01-01 08:30:00: Running action: Run Feeder
+2023-10-19 17:09:38.134908 - Feeder at 2019-01-01 08:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:38.134908 - Feeder at 2019-01-01 08:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:38.154930
+2023-10-19 17:09:38.314812
+35
+2023-10-19 17:09:38.354790 - Feeder at 2019-01-01 08:30:00: Publishing on feeder_to_rtds: {'V1': 1.0394208554960642}
+2023-10-19 17:09:38.354790 - Feeder at 2019-01-01 08:30:00: Publishing on feeder_to_rtac: {'V1': 1.0394208554960642}
+2023-10-19 17:09:38.694969 - Feeder at 2019-01-01 08:45:00: Running action: Run Feeder
+2023-10-19 17:09:38.694969 - Feeder at 2019-01-01 08:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:38.694969 - Feeder at 2019-01-01 08:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:38.704968
+2023-10-19 17:09:38.874876
+36
+2023-10-19 17:09:38.914855 - Feeder at 2019-01-01 08:45:00: Publishing on feeder_to_rtds: {'V1': 1.0394208554930227}
+2023-10-19 17:09:38.914855 - Feeder at 2019-01-01 08:45:00: Publishing on feeder_to_rtac: {'V1': 1.0394208554930227}
+2023-10-19 17:09:39.274783 - Feeder at 2019-01-01 09:00:00: Running action: Run Feeder
+2023-10-19 17:09:39.274783 - Feeder at 2019-01-01 09:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:39.274783 - Feeder at 2019-01-01 09:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:39.284778
+2023-10-19 17:09:39.444693
+37
+2023-10-19 17:09:39.484672 - Feeder at 2019-01-01 09:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459238364}
+2023-10-19 17:09:39.484672 - Feeder at 2019-01-01 09:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459238364}
+2023-10-19 17:09:39.793768 - Feeder at 2019-01-01 09:00:00: Running action: Save Results
+2023-10-19 17:09:39.993696 - Feeder at 2019-01-01 09:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:40.257831 - Feeder at 2019-01-01 09:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:40.532232 - Feeder at 2019-01-01 09:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:40.712681 - Feeder at 2019-01-01 09:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:40.714723 - Feeder at 2019-01-01 09:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:40.744917 - Feeder at 2019-01-01 09:15:00: Running action: Run Feeder
+2023-10-19 17:09:40.744917 - Feeder at 2019-01-01 09:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:40.744917 - Feeder at 2019-01-01 09:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:40.762921
+2023-10-19 17:09:40.915993
+38
+2023-10-19 17:09:40.966495 - Feeder at 2019-01-01 09:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459196155}
+2023-10-19 17:09:40.966495 - Feeder at 2019-01-01 09:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459196155}
+2023-10-19 17:09:41.288409 - Feeder at 2019-01-01 09:30:00: Running action: Run Feeder
+2023-10-19 17:09:41.288409 - Feeder at 2019-01-01 09:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:41.288409 - Feeder at 2019-01-01 09:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:41.298405
+2023-10-19 17:09:41.448323
+39
+2023-10-19 17:09:41.488303 - Feeder at 2019-01-01 09:30:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459167787}
+2023-10-19 17:09:41.488303 - Feeder at 2019-01-01 09:30:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459167787}
+2023-10-19 17:09:41.808425 - Feeder at 2019-01-01 09:45:00: Running action: Run Feeder
+2023-10-19 17:09:41.808425 - Feeder at 2019-01-01 09:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:41.808425 - Feeder at 2019-01-01 09:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:41.828416
+2023-10-19 17:09:41.968340
+40
+2023-10-19 17:09:42.008319 - Feeder at 2019-01-01 09:45:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459201074}
+2023-10-19 17:09:42.008319 - Feeder at 2019-01-01 09:45:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459201074}
+2023-10-19 17:09:42.377169 - Feeder at 2019-01-01 10:00:00: Running action: Run Feeder
+2023-10-19 17:09:42.377169 - Feeder at 2019-01-01 10:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:42.377169 - Feeder at 2019-01-01 10:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:42.397158
+2023-10-19 17:09:42.547083
+41
+2023-10-19 17:09:42.587088 - Feeder at 2019-01-01 10:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459206303}
+2023-10-19 17:09:42.587088 - Feeder at 2019-01-01 10:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459206303}
+2023-10-19 17:09:42.898859 - Feeder at 2019-01-01 10:00:00: Running action: Save Results
+2023-10-19 17:09:43.080580 - Feeder at 2019-01-01 10:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:43.310460 - Feeder at 2019-01-01 10:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:43.643667 - Feeder at 2019-01-01 10:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:43.805262 - Feeder at 2019-01-01 10:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:43.807272 - Feeder at 2019-01-01 10:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:43.835572 - Feeder at 2019-01-01 10:15:00: Running action: Run Feeder
+2023-10-19 17:09:43.835572 - Feeder at 2019-01-01 10:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:43.835572 - Feeder at 2019-01-01 10:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:43.855507
+2023-10-19 17:09:44.005427
+42
+2023-10-19 17:09:44.045406 - Feeder at 2019-01-01 10:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459163604}
+2023-10-19 17:09:44.045406 - Feeder at 2019-01-01 10:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459163604}
+2023-10-19 17:09:44.365235 - Feeder at 2019-01-01 10:30:00: Running action: Run Feeder
+2023-10-19 17:09:44.365235 - Feeder at 2019-01-01 10:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:44.365235 - Feeder at 2019-01-01 10:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:44.385223
+2023-10-19 17:09:44.515154
+43
+2023-10-19 17:09:44.555138 - Feeder at 2019-01-01 10:30:00: Publishing on feeder_to_rtds: {'V1': 1.039222445918607}
+2023-10-19 17:09:44.555138 - Feeder at 2019-01-01 10:30:00: Publishing on feeder_to_rtac: {'V1': 1.039222445918607}
+2023-10-19 17:09:44.875891 - Feeder at 2019-01-01 10:45:00: Running action: Run Feeder
+2023-10-19 17:09:44.875891 - Feeder at 2019-01-01 10:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:44.875891 - Feeder at 2019-01-01 10:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:44.885886
+2023-10-19 17:09:45.045800
+44
+2023-10-19 17:09:45.085779 - Feeder at 2019-01-01 10:45:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459224768}
+2023-10-19 17:09:45.085779 - Feeder at 2019-01-01 10:45:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459224768}
+2023-10-19 17:09:45.415122 - Feeder at 2019-01-01 11:00:00: Running action: Run Feeder
+2023-10-19 17:09:45.415122 - Feeder at 2019-01-01 11:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:45.415122 - Feeder at 2019-01-01 11:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:45.435112
+2023-10-19 17:09:45.577384
+45
+2023-10-19 17:09:45.617993 - Feeder at 2019-01-01 11:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459207051}
+2023-10-19 17:09:45.617993 - Feeder at 2019-01-01 11:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459207051}
+2023-10-19 17:09:45.900218 - Feeder at 2019-01-01 11:00:00: Running action: Save Results
+2023-10-19 17:09:46.059833 - Feeder at 2019-01-01 11:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:46.294391 - Feeder at 2019-01-01 11:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:46.584604 - Feeder at 2019-01-01 11:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:46.754786 - Feeder at 2019-01-01 11:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:46.754786 - Feeder at 2019-01-01 11:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:46.782849 - Feeder at 2019-01-01 11:15:00: Running action: Run Feeder
+2023-10-19 17:09:46.782849 - Feeder at 2019-01-01 11:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:46.782849 - Feeder at 2019-01-01 11:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:46.802869
+2023-10-19 17:09:46.962751
+46
+2023-10-19 17:09:47.022722 - Feeder at 2019-01-01 11:15:00: Publishing on feeder_to_rtds: {'V1': 1.039222445919596}
+2023-10-19 17:09:47.022722 - Feeder at 2019-01-01 11:15:00: Publishing on feeder_to_rtac: {'V1': 1.039222445919596}
+2023-10-19 17:09:47.339603 - Feeder at 2019-01-01 11:30:00: Running action: Run Feeder
+2023-10-19 17:09:47.339603 - Feeder at 2019-01-01 11:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:47.339603 - Feeder at 2019-01-01 11:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:47.359594
+2023-10-19 17:09:47.509513
+47
+2023-10-19 17:09:47.559488 - Feeder at 2019-01-01 11:30:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459171246}
+2023-10-19 17:09:47.559488 - Feeder at 2019-01-01 11:30:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459171246}
+2023-10-19 17:09:47.893684 - Feeder at 2019-01-01 11:45:00: Running action: Run Feeder
+2023-10-19 17:09:47.893684 - Feeder at 2019-01-01 11:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:47.893684 - Feeder at 2019-01-01 11:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:47.903712
+2023-10-19 17:09:48.043636
+48
+2023-10-19 17:09:48.083585 - Feeder at 2019-01-01 11:45:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459223303}
+2023-10-19 17:09:48.083585 - Feeder at 2019-01-01 11:45:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459223303}
+2023-10-19 17:09:48.429448 - Feeder at 2019-01-01 12:00:00: Running action: Run Feeder
+2023-10-19 17:09:48.429448 - Feeder at 2019-01-01 12:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:48.429448 - Feeder at 2019-01-01 12:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:48.442670
+2023-10-19 17:09:48.577475
+49
+2023-10-19 17:09:48.615433 - Feeder at 2019-01-01 12:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459211175}
+2023-10-19 17:09:48.615433 - Feeder at 2019-01-01 12:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459211175}
+2023-10-19 17:09:48.945849 - Feeder at 2019-01-01 12:00:00: Running action: Save Results
+2023-10-19 17:09:49.117160 - Feeder at 2019-01-01 12:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:49.378812 - Feeder at 2019-01-01 12:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:49.673014 - Feeder at 2019-01-01 12:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:49.855252 - Feeder at 2019-01-01 12:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:49.855252 - Feeder at 2019-01-01 12:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:49.885375 - Feeder at 2019-01-01 12:15:00: Running action: Run Feeder
+2023-10-19 17:09:49.885375 - Feeder at 2019-01-01 12:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:49.885375 - Feeder at 2019-01-01 12:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:49.903408
+2023-10-19 17:09:50.053567
+50
+2023-10-19 17:09:50.091988 - Feeder at 2019-01-01 12:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459202248}
+2023-10-19 17:09:50.091988 - Feeder at 2019-01-01 12:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459202248}
+2023-10-19 17:09:50.445179 - Feeder at 2019-01-01 12:30:00: Running action: Run Feeder
+2023-10-19 17:09:50.445179 - Feeder at 2019-01-01 12:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:50.445179 - Feeder at 2019-01-01 12:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:50.465170
+2023-10-19 17:09:50.615088
+51
+2023-10-19 17:09:50.655068 - Feeder at 2019-01-01 12:30:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459193693}
+2023-10-19 17:09:50.655068 - Feeder at 2019-01-01 12:30:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459193693}
+2023-10-19 17:09:50.974898 - Feeder at 2019-01-01 12:45:00: Running action: Run Feeder
+2023-10-19 17:09:50.974898 - Feeder at 2019-01-01 12:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:50.974898 - Feeder at 2019-01-01 12:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:50.994885
+2023-10-19 17:09:51.134809
+52
+2023-10-19 17:09:51.184783 - Feeder at 2019-01-01 12:45:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459219477}
+2023-10-19 17:09:51.184783 - Feeder at 2019-01-01 12:45:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459219477}
+2023-10-19 17:09:51.524602 - Feeder at 2019-01-01 13:00:00: Running action: Run Feeder
+2023-10-19 17:09:51.524602 - Feeder at 2019-01-01 13:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:51.524602 - Feeder at 2019-01-01 13:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:51.534602
+2023-10-19 17:09:51.684516
+53
+2023-10-19 17:09:51.724495 - Feeder at 2019-01-01 13:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459214272}
+2023-10-19 17:09:51.724495 - Feeder at 2019-01-01 13:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459214272}
+2023-10-19 17:09:52.019592 - Feeder at 2019-01-01 13:00:00: Running action: Save Results
+2023-10-19 17:09:52.233731 - Feeder at 2019-01-01 13:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:52.486428 - Feeder at 2019-01-01 13:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:52.777788 - Feeder at 2019-01-01 13:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:52.931454 - Feeder at 2019-01-01 13:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:52.939548 - Feeder at 2019-01-01 13:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:52.969676 - Feeder at 2019-01-01 13:15:00: Running action: Run Feeder
+2023-10-19 17:09:52.969676 - Feeder at 2019-01-01 13:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:52.969676 - Feeder at 2019-01-01 13:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:52.979670
+2023-10-19 17:09:53.119595
+54
+2023-10-19 17:09:53.159576 - Feeder at 2019-01-01 13:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459207031}
+2023-10-19 17:09:53.159576 - Feeder at 2019-01-01 13:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459207031}
+2023-10-19 17:09:53.509387 - Feeder at 2019-01-01 13:30:00: Running action: Run Feeder
+2023-10-19 17:09:53.509387 - Feeder at 2019-01-01 13:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:53.509387 - Feeder at 2019-01-01 13:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:53.529377
+2023-10-19 17:09:53.669333
+55
+2023-10-19 17:09:53.709282 - Feeder at 2019-01-01 13:30:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459205135}
+2023-10-19 17:09:53.709282 - Feeder at 2019-01-01 13:30:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459205135}
+2023-10-19 17:09:54.045134 - Feeder at 2019-01-01 13:45:00: Running action: Run Feeder
+2023-10-19 17:09:54.045134 - Feeder at 2019-01-01 13:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:54.045134 - Feeder at 2019-01-01 13:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:54.065125
+2023-10-19 17:09:54.225040
+56
+2023-10-19 17:09:54.265016 - Feeder at 2019-01-01 13:45:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459185613}
+2023-10-19 17:09:54.265016 - Feeder at 2019-01-01 13:45:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459185613}
+2023-10-19 17:09:54.631834 - Feeder at 2019-01-01 14:00:00: Running action: Run Feeder
+2023-10-19 17:09:54.631834 - Feeder at 2019-01-01 14:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:54.631834 - Feeder at 2019-01-01 14:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:54.651825
+2023-10-19 17:09:54.801744
+57
+2023-10-19 17:09:54.831727 - Feeder at 2019-01-01 14:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459222552}
+2023-10-19 17:09:54.831727 - Feeder at 2019-01-01 14:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459222552}
+2023-10-19 17:09:55.161550 - Feeder at 2019-01-01 14:00:00: Running action: Save Results
+2023-10-19 17:09:55.361479 - Feeder at 2019-01-01 14:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:55.621344 - Feeder at 2019-01-01 14:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:55.946547 - Feeder at 2019-01-01 14:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:56.119480 - Feeder at 2019-01-01 14:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:56.121646 - Feeder at 2019-01-01 14:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:56.152111 - Feeder at 2019-01-01 14:15:00: Running action: Run Feeder
+2023-10-19 17:09:56.152111 - Feeder at 2019-01-01 14:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:56.152111 - Feeder at 2019-01-01 14:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:56.170144
+2023-10-19 17:09:56.320028
+58
+2023-10-19 17:09:56.352647 - Feeder at 2019-01-01 14:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459194699}
+2023-10-19 17:09:56.352647 - Feeder at 2019-01-01 14:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459194699}
+2023-10-19 17:09:56.703759 - Feeder at 2019-01-01 14:30:00: Running action: Run Feeder
+2023-10-19 17:09:56.703759 - Feeder at 2019-01-01 14:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:56.703759 - Feeder at 2019-01-01 14:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:56.725955
+2023-10-19 17:09:56.867587
+59
+2023-10-19 17:09:56.907903 - Feeder at 2019-01-01 14:30:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459176158}
+2023-10-19 17:09:56.907903 - Feeder at 2019-01-01 14:30:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459176158}
+2023-10-19 17:09:57.218899 - Feeder at 2019-01-01 14:45:00: Running action: Run Feeder
+2023-10-19 17:09:57.218899 - Feeder at 2019-01-01 14:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:57.218899 - Feeder at 2019-01-01 14:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:57.228892
+2023-10-19 17:09:57.388848
+60
+2023-10-19 17:09:57.428786 - Feeder at 2019-01-01 14:45:00: Publishing on feeder_to_rtds: {'V1': 1.039222445919435}
+2023-10-19 17:09:57.428786 - Feeder at 2019-01-01 14:45:00: Publishing on feeder_to_rtac: {'V1': 1.039222445919435}
+2023-10-19 17:09:57.753372 - Feeder at 2019-01-01 15:00:00: Running action: Run Feeder
+2023-10-19 17:09:57.753372 - Feeder at 2019-01-01 15:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:57.753372 - Feeder at 2019-01-01 15:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:57.773361
+2023-10-19 17:09:57.913286
+61
+2023-10-19 17:09:57.945890 - Feeder at 2019-01-01 15:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459183144}
+2023-10-19 17:09:57.945890 - Feeder at 2019-01-01 15:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459183144}
+2023-10-19 17:09:58.266057 - Feeder at 2019-01-01 15:00:00: Running action: Save Results
+2023-10-19 17:09:58.466685 - Feeder at 2019-01-01 15:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:09:58.711800 - Feeder at 2019-01-01 15:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:09:59.006676 - Feeder at 2019-01-01 15:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:09:59.160621 - Feeder at 2019-01-01 15:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:09:59.168663 - Feeder at 2019-01-01 15:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:09:59.198687 - Feeder at 2019-01-01 15:15:00: Running action: Run Feeder
+2023-10-19 17:09:59.198687 - Feeder at 2019-01-01 15:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:59.198687 - Feeder at 2019-01-01 15:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:59.218677
+2023-10-19 17:09:59.378593
+62
+2023-10-19 17:09:59.438562 - Feeder at 2019-01-01 15:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459210668}
+2023-10-19 17:09:59.438562 - Feeder at 2019-01-01 15:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459210668}
+2023-10-19 17:09:59.788646 - Feeder at 2019-01-01 15:30:00: Running action: Run Feeder
+2023-10-19 17:09:59.788646 - Feeder at 2019-01-01 15:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:59.788646 - Feeder at 2019-01-01 15:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:09:59.808639
+2023-10-19 17:09:59.948564
+63
+2023-10-19 17:09:59.988543 - Feeder at 2019-01-01 15:30:00: Publishing on feeder_to_rtds: {'V1': 1.03922244591885}
+2023-10-19 17:09:59.988543 - Feeder at 2019-01-01 15:30:00: Publishing on feeder_to_rtac: {'V1': 1.03922244591885}
+2023-10-19 17:10:00.338371 - Feeder at 2019-01-01 15:45:00: Running action: Run Feeder
+2023-10-19 17:10:00.338371 - Feeder at 2019-01-01 15:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:00.338371 - Feeder at 2019-01-01 15:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:00.358346
+2023-10-19 17:10:00.498374
+64
+2023-10-19 17:10:00.528358 - Feeder at 2019-01-01 15:45:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459180464}
+2023-10-19 17:10:00.528358 - Feeder at 2019-01-01 15:45:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459180464}
+2023-10-19 17:10:00.876248 - Feeder at 2019-01-01 16:00:00: Running action: Run Feeder
+2023-10-19 17:10:00.876248 - Feeder at 2019-01-01 16:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:00.876248 - Feeder at 2019-01-01 16:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:00.886249
+2023-10-19 17:10:01.046521
+65
+2023-10-19 17:10:01.086513 - Feeder at 2019-01-01 16:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459187853}
+2023-10-19 17:10:01.086513 - Feeder at 2019-01-01 16:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459187853}
+2023-10-19 17:10:01.399700 - Feeder at 2019-01-01 16:00:00: Running action: Save Results
+2023-10-19 17:10:01.571676 - Feeder at 2019-01-01 16:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:10:01.803870 - Feeder at 2019-01-01 16:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:10:02.096983 - Feeder at 2019-01-01 16:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:10:02.266316 - Feeder at 2019-01-01 16:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:10:02.266316 - Feeder at 2019-01-01 16:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:10:02.294389 - Feeder at 2019-01-01 16:15:00: Running action: Run Feeder
+2023-10-19 17:10:02.294389 - Feeder at 2019-01-01 16:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:02.294389 - Feeder at 2019-01-01 16:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:02.314379
+2023-10-19 17:10:02.484287
+66
+2023-10-19 17:10:02.545393 - Feeder at 2019-01-01 16:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459189876}
+2023-10-19 17:10:02.545393 - Feeder at 2019-01-01 16:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459189876}
+2023-10-19 17:10:02.896847 - Feeder at 2019-01-01 16:30:00: Running action: Run Feeder
+2023-10-19 17:10:02.896847 - Feeder at 2019-01-01 16:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:02.896847 - Feeder at 2019-01-01 16:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:02.916869
+2023-10-19 17:10:03.076751
+67
+2023-10-19 17:10:03.116731 - Feeder at 2019-01-01 16:30:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459191048}
+2023-10-19 17:10:03.116731 - Feeder at 2019-01-01 16:30:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459191048}
+2023-10-19 17:10:03.466555 - Feeder at 2019-01-01 16:45:00: Running action: Run Feeder
+2023-10-19 17:10:03.466555 - Feeder at 2019-01-01 16:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:03.466555 - Feeder at 2019-01-01 16:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:03.476550
+2023-10-19 17:10:03.620919
+68
+2023-10-19 17:10:03.650945 - Feeder at 2019-01-01 16:45:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459198545}
+2023-10-19 17:10:03.650945 - Feeder at 2019-01-01 16:45:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459198545}
+2023-10-19 17:10:03.995963 - Feeder at 2019-01-01 17:00:00: Running action: Run Feeder
+2023-10-19 17:10:03.995963 - Feeder at 2019-01-01 17:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:03.995963 - Feeder at 2019-01-01 17:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:04.005992
+2023-10-19 17:10:04.176240
+69
+2023-10-19 17:10:04.226213 - Feeder at 2019-01-01 17:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459178212}
+2023-10-19 17:10:04.226213 - Feeder at 2019-01-01 17:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459178212}
+2023-10-19 17:10:04.536051 - Feeder at 2019-01-01 17:00:00: Running action: Save Results
+2023-10-19 17:10:04.735946 - Feeder at 2019-01-01 17:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:10:05.015994 - Feeder at 2019-01-01 17:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:10:05.382828 - Feeder at 2019-01-01 17:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:10:05.585730 - Feeder at 2019-01-01 17:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:10:05.585730 - Feeder at 2019-01-01 17:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:10:05.634801 - Feeder at 2019-01-01 17:15:00: Running action: Run Feeder
+2023-10-19 17:10:05.634801 - Feeder at 2019-01-01 17:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:05.634801 - Feeder at 2019-01-01 17:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:05.657535
+2023-10-19 17:10:05.850828
+70
+2023-10-19 17:10:05.900841 - Feeder at 2019-01-01 17:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459182502}
+2023-10-19 17:10:05.900841 - Feeder at 2019-01-01 17:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459182502}
+2023-10-19 17:10:06.305745 - Feeder at 2019-01-01 17:30:00: Running action: Run Feeder
+2023-10-19 17:10:06.305745 - Feeder at 2019-01-01 17:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:06.305745 - Feeder at 2019-01-01 17:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:06.325742
+2023-10-19 17:10:06.515628
+71
+2023-10-19 17:10:06.565634 - Feeder at 2019-01-01 17:30:00: Publishing on feeder_to_rtds: {'V1': 1.039222445919892}
+2023-10-19 17:10:06.565634 - Feeder at 2019-01-01 17:30:00: Publishing on feeder_to_rtac: {'V1': 1.039222445919892}
+2023-10-19 17:10:07.015401 - Feeder at 2019-01-01 17:45:00: Running action: Run Feeder
+2023-10-19 17:10:07.015401 - Feeder at 2019-01-01 17:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:07.015401 - Feeder at 2019-01-01 17:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:07.035392
+2023-10-19 17:10:07.256317
+72
+2023-10-19 17:10:07.306326 - Feeder at 2019-01-01 17:45:00: Publishing on feeder_to_rtds: {'V1': 1.039222445920308}
+2023-10-19 17:10:07.306326 - Feeder at 2019-01-01 17:45:00: Publishing on feeder_to_rtac: {'V1': 1.039222445920308}
+2023-10-19 17:10:07.781142 - Feeder at 2019-01-01 18:00:00: Running action: Run Feeder
+2023-10-19 17:10:07.781142 - Feeder at 2019-01-01 18:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:07.781142 - Feeder at 2019-01-01 18:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:07.801130
+2023-10-19 17:10:08.031016
+73
+2023-10-19 17:10:08.080995 - Feeder at 2019-01-01 18:00:00: Publishing on feeder_to_rtds: {'V1': 1.039222445919212}
+2023-10-19 17:10:08.080995 - Feeder at 2019-01-01 18:00:00: Publishing on feeder_to_rtac: {'V1': 1.039222445919212}
+2023-10-19 17:10:08.515657 - Feeder at 2019-01-01 18:00:00: Running action: Save Results
+2023-10-19 17:10:08.741296 - Feeder at 2019-01-01 18:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:10:09.068287 - Feeder at 2019-01-01 18:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:10:09.899760 - Feeder at 2019-01-01 18:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:10:10.459461 - Feeder at 2019-01-01 18:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:10:10.469456 - Feeder at 2019-01-01 18:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:10:10.559415 - Feeder at 2019-01-01 18:15:00: Running action: Run Feeder
+2023-10-19 17:10:10.559415 - Feeder at 2019-01-01 18:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:10.559415 - Feeder at 2019-01-01 18:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:10.619385
+2023-10-19 17:10:11.189172
+74
+2023-10-19 17:10:11.299113 - Feeder at 2019-01-01 18:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459185055}
+2023-10-19 17:10:11.299113 - Feeder at 2019-01-01 18:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459185055}
+2023-10-19 17:10:12.304124 - Feeder at 2019-01-01 18:30:00: Running action: Run Feeder
+2023-10-19 17:10:12.304124 - Feeder at 2019-01-01 18:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:12.304124 - Feeder at 2019-01-01 18:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:12.324114
+2023-10-19 17:10:12.563041
+75
+2023-10-19 17:10:12.607434 - Feeder at 2019-01-01 18:30:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459201596}
+2023-10-19 17:10:12.607434 - Feeder at 2019-01-01 18:30:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459201596}
+2023-10-19 17:10:13.080055 - Feeder at 2019-01-01 18:45:00: Running action: Run Feeder
+2023-10-19 17:10:13.080055 - Feeder at 2019-01-01 18:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:13.080055 - Feeder at 2019-01-01 18:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:13.100044
+2023-10-19 17:10:13.299936
+76
+2023-10-19 17:10:13.349910 - Feeder at 2019-01-01 18:45:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459180361}
+2023-10-19 17:10:13.349910 - Feeder at 2019-01-01 18:45:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459180361}
+2023-10-19 17:10:13.799270 - Feeder at 2019-01-01 19:00:00: Running action: Run Feeder
+2023-10-19 17:10:13.799270 - Feeder at 2019-01-01 19:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:13.799270 - Feeder at 2019-01-01 19:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:13.819261
+2023-10-19 17:10:14.039172
+77
+2023-10-19 17:10:14.089161 - Feeder at 2019-01-01 19:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459222283}
+2023-10-19 17:10:14.089161 - Feeder at 2019-01-01 19:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459222283}
+2023-10-19 17:10:14.478937 - Feeder at 2019-01-01 19:00:00: Running action: Save Results
+2023-10-19 17:10:14.692892 - Feeder at 2019-01-01 19:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:10:15.006366 - Feeder at 2019-01-01 19:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:10:15.392338 - Feeder at 2019-01-01 19:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:10:15.623536 - Feeder at 2019-01-01 19:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:10:15.623536 - Feeder at 2019-01-01 19:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:10:15.681641 - Feeder at 2019-01-01 19:15:00: Running action: Run Feeder
+2023-10-19 17:10:15.681641 - Feeder at 2019-01-01 19:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:15.681641 - Feeder at 2019-01-01 19:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:15.711624
+2023-10-19 17:10:15.926812
+78
+2023-10-19 17:10:15.986756 - Feeder at 2019-01-01 19:15:00: Publishing on feeder_to_rtds: {'V1': 1.03922244591723}
+2023-10-19 17:10:15.996744 - Feeder at 2019-01-01 19:15:00: Publishing on feeder_to_rtac: {'V1': 1.03922244591723}
+2023-10-19 17:10:16.713952 - Feeder at 2019-01-01 19:30:00: Running action: Run Feeder
+2023-10-19 17:10:16.713952 - Feeder at 2019-01-01 19:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:16.713952 - Feeder at 2019-01-01 19:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:16.753930
+2023-10-19 17:10:17.025553
+79
+2023-10-19 17:10:17.086208 - Feeder at 2019-01-01 19:30:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459163317}
+2023-10-19 17:10:17.086208 - Feeder at 2019-01-01 19:30:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459163317}
+2023-10-19 17:10:17.569421 - Feeder at 2019-01-01 19:45:00: Running action: Run Feeder
+2023-10-19 17:10:17.569421 - Feeder at 2019-01-01 19:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:17.569421 - Feeder at 2019-01-01 19:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:17.589412
+2023-10-19 17:10:17.829488
+80
+2023-10-19 17:10:17.889458 - Feeder at 2019-01-01 19:45:00: Publishing on feeder_to_rtds: {'V1': 1.039222445918707}
+2023-10-19 17:10:17.889458 - Feeder at 2019-01-01 19:45:00: Publishing on feeder_to_rtac: {'V1': 1.039222445918707}
+2023-10-19 17:10:18.387769 - Feeder at 2019-01-01 20:00:00: Running action: Run Feeder
+2023-10-19 17:10:18.387769 - Feeder at 2019-01-01 20:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:18.387769 - Feeder at 2019-01-01 20:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:18.407791
+2023-10-19 17:10:18.613315
+81
+2023-10-19 17:10:18.663263 - Feeder at 2019-01-01 20:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459181914}
+2023-10-19 17:10:18.663263 - Feeder at 2019-01-01 20:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459181914}
+2023-10-19 17:10:19.163403 - Feeder at 2019-01-01 20:00:00: Running action: Save Results
+2023-10-19 17:10:19.413365 - Feeder at 2019-01-01 20:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:10:19.777527 - Feeder at 2019-01-01 20:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:10:20.233332 - Feeder at 2019-01-01 20:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:10:20.463421 - Feeder at 2019-01-01 20:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:10:20.463421 - Feeder at 2019-01-01 20:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:10:20.513392 - Feeder at 2019-01-01 20:15:00: Running action: Run Feeder
+2023-10-19 17:10:20.513392 - Feeder at 2019-01-01 20:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:20.513392 - Feeder at 2019-01-01 20:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:20.533383
+2023-10-19 17:10:20.753292
+82
+2023-10-19 17:10:20.803238 - Feeder at 2019-01-01 20:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459173705}
+2023-10-19 17:10:20.803238 - Feeder at 2019-01-01 20:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459173705}
+2023-10-19 17:10:21.243983 - Feeder at 2019-01-01 20:30:00: Running action: Run Feeder
+2023-10-19 17:10:21.243983 - Feeder at 2019-01-01 20:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:21.243983 - Feeder at 2019-01-01 20:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:21.283962
+C:\Users\jwang4\Anaconda3\envs\admsuc7\lib\site-packages\helics\capi.py:3995: UserWarning: This function is deprecated. Use `helicsFederateDisconnect` instead.
+  warnings.warn("This function is deprecated. Use `helicsFederateDisconnect` instead.")
+2023-10-19 17:10:21.808183
+83
+2023-10-19 17:10:21.979526 - Feeder at 2019-01-01 20:30:00: Publishing on feeder_to_rtds: {'V1': 1.039222445919967}
+2023-10-19 17:10:21.979526 - Feeder at 2019-01-01 20:30:00: Publishing on feeder_to_rtac: {'V1': 1.039222445919967}
+2023-10-19 17:10:23.254368 - Feeder at 2019-01-01 20:45:00: Running action: Run Feeder
+2023-10-19 17:10:23.254368 - Feeder at 2019-01-01 20:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:23.254368 - Feeder at 2019-01-01 20:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:23.304328
+2023-10-19 17:10:23.799295
+84
+2023-10-19 17:10:23.869256 - Feeder at 2019-01-01 20:45:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459178052}
+2023-10-19 17:10:23.869256 - Feeder at 2019-01-01 20:45:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459178052}
+2023-10-19 17:10:24.438949 - Feeder at 2019-01-01 21:00:00: Running action: Run Feeder
+2023-10-19 17:10:24.438949 - Feeder at 2019-01-01 21:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:24.438949 - Feeder at 2019-01-01 21:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:24.458940
+2023-10-19 17:10:24.688849
+85
+2023-10-19 17:10:24.748811 - Feeder at 2019-01-01 21:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459162775}
+2023-10-19 17:10:24.748811 - Feeder at 2019-01-01 21:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459162775}
+2023-10-19 17:10:25.246919 - Feeder at 2019-01-01 21:00:00: Running action: Save Results
+2023-10-19 17:10:25.499362 - Feeder at 2019-01-01 21:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:10:25.821247 - Feeder at 2019-01-01 21:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:10:26.234595 - Feeder at 2019-01-01 21:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:10:26.491545 - Feeder at 2019-01-01 21:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:10:26.491545 - Feeder at 2019-01-01 21:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:10:26.541515 - Feeder at 2019-01-01 21:15:00: Running action: Run Feeder
+2023-10-19 17:10:26.541515 - Feeder at 2019-01-01 21:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:26.541515 - Feeder at 2019-01-01 21:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:26.561538
+2023-10-19 17:10:26.771425
+86
+2023-10-19 17:10:26.821400 - Feeder at 2019-01-01 21:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459192816}
+2023-10-19 17:10:26.821400 - Feeder at 2019-01-01 21:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459192816}
+2023-10-19 17:10:27.310232 - Feeder at 2019-01-01 21:30:00: Running action: Run Feeder
+2023-10-19 17:10:27.310232 - Feeder at 2019-01-01 21:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:27.310232 - Feeder at 2019-01-01 21:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:27.337734
+2023-10-19 17:10:27.556202
+87
+2023-10-19 17:10:27.596187 - Feeder at 2019-01-01 21:30:00: Publishing on feeder_to_rtds: {'V1': 1.039222445919946}
+2023-10-19 17:10:27.596187 - Feeder at 2019-01-01 21:30:00: Publishing on feeder_to_rtac: {'V1': 1.039222445919946}
+2023-10-19 17:10:28.036439 - Feeder at 2019-01-01 21:45:00: Running action: Run Feeder
+2023-10-19 17:10:28.036439 - Feeder at 2019-01-01 21:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:28.036439 - Feeder at 2019-01-01 21:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:28.056462
+2023-10-19 17:10:28.256354
+88
+2023-10-19 17:10:28.296334 - Feeder at 2019-01-01 21:45:00: Publishing on feeder_to_rtds: {'V1': 1.039222445919553}
+2023-10-19 17:10:28.296334 - Feeder at 2019-01-01 21:45:00: Publishing on feeder_to_rtac: {'V1': 1.039222445919553}
+2023-10-19 17:10:28.725021 - Feeder at 2019-01-01 22:00:00: Running action: Run Feeder
+2023-10-19 17:10:28.725021 - Feeder at 2019-01-01 22:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:28.725021 - Feeder at 2019-01-01 22:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:28.745021
+2023-10-19 17:10:28.964894
+89
+2023-10-19 17:10:29.004905 - Feeder at 2019-01-01 22:00:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459173562}
+2023-10-19 17:10:29.004905 - Feeder at 2019-01-01 22:00:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459173562}
+2023-10-19 17:10:29.394663 - Feeder at 2019-01-01 22:00:00: Running action: Save Results
+2023-10-19 17:10:29.604619 - Feeder at 2019-01-01 22:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:10:29.918945 - Feeder at 2019-01-01 22:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:10:30.338770 - Feeder at 2019-01-01 22:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:10:30.587034 - Feeder at 2019-01-01 22:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:10:30.589050 - Feeder at 2019-01-01 22:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:10:30.637044 - Feeder at 2019-01-01 22:15:00: Running action: Run Feeder
+2023-10-19 17:10:30.637044 - Feeder at 2019-01-01 22:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:30.637044 - Feeder at 2019-01-01 22:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:30.667028
+2023-10-19 17:10:30.976895
+90
+2023-10-19 17:10:31.036389 - Feeder at 2019-01-01 22:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459194503}
+2023-10-19 17:10:31.036389 - Feeder at 2019-01-01 22:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459194503}
+2023-10-19 17:10:31.587505 - Feeder at 2019-01-01 22:30:00: Running action: Run Feeder
+2023-10-19 17:10:31.587505 - Feeder at 2019-01-01 22:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:31.587505 - Feeder at 2019-01-01 22:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:31.615527
+2023-10-19 17:10:31.924343
+91
+2023-10-19 17:10:31.993325 - Feeder at 2019-01-01 22:30:00: Publishing on feeder_to_rtds: {'V1': 1.039222445919107}
+2023-10-19 17:10:31.993325 - Feeder at 2019-01-01 22:30:00: Publishing on feeder_to_rtac: {'V1': 1.039222445919107}
+2023-10-19 17:10:32.580441 - Feeder at 2019-01-01 22:45:00: Running action: Run Feeder
+2023-10-19 17:10:32.580441 - Feeder at 2019-01-01 22:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:32.580441 - Feeder at 2019-01-01 22:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:32.610461
+2023-10-19 17:10:32.830341
+92
+2023-10-19 17:10:32.882916 - Feeder at 2019-01-01 22:45:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459183133}
+2023-10-19 17:10:32.882916 - Feeder at 2019-01-01 22:45:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459183133}
+2023-10-19 17:10:33.404291 - Feeder at 2019-01-01 23:00:00: Running action: Run Feeder
+2023-10-19 17:10:33.404291 - Feeder at 2019-01-01 23:00:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:33.404291 - Feeder at 2019-01-01 23:00:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:33.424281
+2023-10-19 17:10:33.634261
+93
+2023-10-19 17:10:33.684235 - Feeder at 2019-01-01 23:00:00: Publishing on feeder_to_rtds: {'V1': 1.039222445917213}
+2023-10-19 17:10:33.684235 - Feeder at 2019-01-01 23:00:00: Publishing on feeder_to_rtac: {'V1': 1.039222445917213}
+2023-10-19 17:10:34.139386 - Feeder at 2019-01-01 23:00:00: Running action: Save Results
+2023-10-19 17:10:34.399250 - Feeder at 2019-01-01 23:00:00: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:10:34.779171 - Feeder at 2019-01-01 23:00:00: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:10:35.272689 - Feeder at 2019-01-01 23:00:00: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:10:35.569100 - Feeder at 2019-01-01 23:00:00: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:10:35.579095 - Feeder at 2019-01-01 23:00:00: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:10:35.639061 - Feeder at 2019-01-01 23:15:00: Running action: Run Feeder
+2023-10-19 17:10:35.639061 - Feeder at 2019-01-01 23:15:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:35.639061 - Feeder at 2019-01-01 23:15:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:35.659055
+2023-10-19 17:10:35.934311
+94
+2023-10-19 17:10:35.994245 - Feeder at 2019-01-01 23:15:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459198744}
+2023-10-19 17:10:35.994245 - Feeder at 2019-01-01 23:15:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459198744}
+2023-10-19 17:10:36.604686 - Feeder at 2019-01-01 23:30:00: Running action: Run Feeder
+2023-10-19 17:10:36.604686 - Feeder at 2019-01-01 23:30:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:36.604686 - Feeder at 2019-01-01 23:30:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:36.644188
+2023-10-19 17:10:36.915389
+95
+2023-10-19 17:10:36.976331 - Feeder at 2019-01-01 23:30:00: Publishing on feeder_to_rtds: {'V1': 1.039222445918076}
+2023-10-19 17:10:36.976331 - Feeder at 2019-01-01 23:30:00: Publishing on feeder_to_rtac: {'V1': 1.039222445918076}
+2023-10-19 17:10:37.570868 - Feeder at 2019-01-01 23:45:00: Running action: Run Feeder
+2023-10-19 17:10:37.570868 - Feeder at 2019-01-01 23:45:00: Received from rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:37.570868 - Feeder at 2019-01-01 23:45:00: Received from rtac_to_feeder: {'rtac': 2}
+Start read csv
+2023-10-19 17:10:37.600852
+2023-10-19 17:10:37.851059
+96
+2023-10-19 17:10:37.911028 - Feeder at 2019-01-01 23:45:00: Publishing on feeder_to_rtds: {'V1': 1.0392224459180364}
+2023-10-19 17:10:37.911028 - Feeder at 2019-01-01 23:45:00: Publishing on feeder_to_rtac: {'V1': 1.0392224459180364}
+2023-10-19 17:10:38.420755 - Feeder at 2019-01-01 23:59:50: Saving Final Results...
+2023-10-19 17:10:38.726116 - Feeder at 2019-01-01 23:59:50: Saving all_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_voltages.csv
+2023-10-19 17:10:39.055921 - Feeder at 2019-01-01 23:59:50: Saving all_bus_voltages results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_bus_voltages.csv
+2023-10-19 17:10:39.475701 - Feeder at 2019-01-01 23:59:50: Saving all_powers results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_all_powers.csv
+2023-10-19 17:10:39.655605 - Feeder at 2019-01-01 23:59:50: Saving feeder_to_rtds results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtds.csv
+2023-10-19 17:10:39.665600 - Feeder at 2019-01-01 23:59:50: Saving feeder_to_rtac results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\Feeder\Feeder_feeder_to_rtac.csv
+2023-10-19 17:10:39.665600 - Feeder at 2019-01-01 23:59:50: Run Feeder ran 96 times: Avg. Time: 0.6064098541666667, Total Time: 58.215346000000004, Max. Time: 1.920416
+2023-10-19 17:10:39.665600 - Feeder at 2019-01-01 23:59:50: Save Results ran 24 times: Avg. Time: 1.030111875, Total Time: 24.722685, Max. Time: 1.953799
+2023-10-19 17:10:39.665600 - Feeder at 2019-01-01 23:59:50: Freeing federate
+2023-10-19 17:10:39.725600 - Feeder at 2019-01-01 23:59:50: Run Feeder ran 96 times: Avg. Time: 0.6064098541666667, Total Time: 58.215346000000004, Max. Time: 1.920416
+2023-10-19 17:10:39.725600 - Feeder at 2019-01-01 23:59:50: Save Results ran 24 times: Avg. Time: 1.030111875, Total Time: 24.722685, Max. Time: 1.953799

@@ -1,0 +1,29 @@
+{
+    "federates":[
+        {
+            "directory":"C:/Users/jwang4/Desktop/ADMS-UseCase7/UC7_Cosim",
+            "exec":"python agents/Feeder.py 0.0.0.0:4545",
+            "host":"localhost",
+            "name":"feeder"
+        },
+        {
+            "directory":"C:/Users/jwang4/Desktop/ADMS-UseCase7/UC7_Cosim",
+            "exec":"python agents/RTDS.py 0.0.0.0:4545",
+            "host":"localhost",
+            "name":"rtds"
+        },        
+	{
+            "directory":"C:/Users/jwang4/Desktop/ADMS-UseCase7/UC7_Cosim",
+            "exec":"python agents/RTAC.py 0.0.0.0:4545",
+            "host":"localhost",
+            "name":"rtac"
+        },
+        {
+            "directory":"C:/Users/jwang4/Desktop/ADMS-UseCase7/UC7_Cosim",
+            "exec":"helics_broker -f 3",
+            "host":"localhost",
+            "name":"broker"
+        }
+    ],
+    "name":"test40"
+}

@@ -1,0 +1,499 @@
+SCENARIO NAME: test40
+MASTER DSS FILE: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\inputs\opendss\Model_UC7\Master_primary.dss
+2023-10-19 17:09:07.618777 - rtds at 2019-01-01 00:00:00: None
+2023-10-19 17:09:07.618777 - rtds at 2019-01-01 00:00:00: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\rtds
+2023-10-19 17:09:07.618777 - rtds at 2019-01-01 00:00:00: Initializing Agent...
+2023-10-19 17:09:07.618777 - rtds at 2019-01-01 00:00:00: Time to initialize: 0:00:00
+2023-10-19 17:09:07.618777 - rtds at 2019-01-01 00:00:00: Creating Federate (Helics version: 3.1.2 (2022-01-25))
+2023-10-19 17:09:11.876781 - rtds at 2019-01-01 00:00:00: Federate initialized. Waiting for other federates...
+2023-10-19 17:09:11.876781 - rtds at 2019-01-01 00:00:00: Federate entering execution mode
+2023-10-19 17:09:11.876781 - rtds at 2019-01-01 00:00:00: Beginning Co-simulation
+2023-10-19 17:09:11.886777 - rtds at 2019-01-01 00:00:00: Running action: Send to rtds
+2023-10-19 17:09:11.886777 - rtds at 2019-01-01 00:00:00: No new data from subscription: feeder_to_rtds
+{}
+2023-10-19 17:09:11.886777 - rtds at 2019-01-01 00:00:00: Running action: Receive from rtds
+2023-10-19 17:09:11.886777 - rtds at 2019-01-01 00:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:13.433494 - rtds at 2019-01-01 00:15:00: Running action: Send to rtds
+2023-10-19 17:09:13.443489 - rtds at 2019-01-01 00:15:00: Received from feeder_to_rtds: {'V1': 1.0392224470476423}
+{'V1': 1.0392224470476423}
+2023-10-19 17:09:13.443489 - rtds at 2019-01-01 00:15:00: Running action: Receive from rtds
+2023-10-19 17:09:13.443489 - rtds at 2019-01-01 00:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:13.953573 - rtds at 2019-01-01 00:30:00: Running action: Send to rtds
+2023-10-19 17:09:13.953573 - rtds at 2019-01-01 00:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459222275}
+{'V1': 1.0392224459222275}
+2023-10-19 17:09:13.953573 - rtds at 2019-01-01 00:30:00: Running action: Receive from rtds
+2023-10-19 17:09:13.953573 - rtds at 2019-01-01 00:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:14.503280 - rtds at 2019-01-01 00:45:00: Running action: Send to rtds
+2023-10-19 17:09:14.503280 - rtds at 2019-01-01 00:45:00: Received from feeder_to_rtds: {'V1': 1.0392224459195694}
+{'V1': 1.0392224459195694}
+2023-10-19 17:09:14.503280 - rtds at 2019-01-01 00:45:00: Running action: Receive from rtds
+2023-10-19 17:09:14.503280 - rtds at 2019-01-01 00:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:15.013100 - rtds at 2019-01-01 01:00:00: Running action: Send to rtds
+2023-10-19 17:09:15.013100 - rtds at 2019-01-01 01:00:00: Received from feeder_to_rtds: {'V1': 1.039222445918909}
+{'V1': 1.039222445918909}
+2023-10-19 17:09:15.013100 - rtds at 2019-01-01 01:00:00: Running action: Receive from rtds
+2023-10-19 17:09:15.013100 - rtds at 2019-01-01 01:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:16.657520 - rtds at 2019-01-01 01:15:00: Running action: Send to rtds
+2023-10-19 17:09:16.657520 - rtds at 2019-01-01 01:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459180441}
+{'V1': 1.0392224459180441}
+2023-10-19 17:09:16.657520 - rtds at 2019-01-01 01:15:00: Running action: Receive from rtds
+2023-10-19 17:09:16.657520 - rtds at 2019-01-01 01:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:17.165262 - rtds at 2019-01-01 01:30:00: Running action: Send to rtds
+2023-10-19 17:09:17.165262 - rtds at 2019-01-01 01:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459186457}
+{'V1': 1.0392224459186457}
+2023-10-19 17:09:17.165262 - rtds at 2019-01-01 01:30:00: Running action: Receive from rtds
+2023-10-19 17:09:17.165262 - rtds at 2019-01-01 01:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:17.675075 - rtds at 2019-01-01 01:45:00: Running action: Send to rtds
+2023-10-19 17:09:17.675075 - rtds at 2019-01-01 01:45:00: Received from feeder_to_rtds: {'V1': 1.0392224459187713}
+{'V1': 1.0392224459187713}
+2023-10-19 17:09:17.675075 - rtds at 2019-01-01 01:45:00: Running action: Receive from rtds
+2023-10-19 17:09:17.675075 - rtds at 2019-01-01 01:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:18.180039 - rtds at 2019-01-01 02:00:00: Running action: Send to rtds
+2023-10-19 17:09:18.180039 - rtds at 2019-01-01 02:00:00: Received from feeder_to_rtds: {'V1': 1.0392224459208044}
+{'V1': 1.0392224459208044}
+2023-10-19 17:09:18.180039 - rtds at 2019-01-01 02:00:00: Running action: Receive from rtds
+2023-10-19 17:09:18.180039 - rtds at 2019-01-01 02:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:19.509324 - rtds at 2019-01-01 02:15:00: Running action: Send to rtds
+2023-10-19 17:09:19.509324 - rtds at 2019-01-01 02:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459201835}
+{'V1': 1.0392224459201835}
+2023-10-19 17:09:19.509324 - rtds at 2019-01-01 02:15:00: Running action: Receive from rtds
+2023-10-19 17:09:19.509324 - rtds at 2019-01-01 02:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:20.003389 - rtds at 2019-01-01 02:30:00: Running action: Send to rtds
+2023-10-19 17:09:20.013391 - rtds at 2019-01-01 02:30:00: Received from feeder_to_rtds: {'V1': 1.03922244591868}
+{'V1': 1.03922244591868}
+2023-10-19 17:09:20.013391 - rtds at 2019-01-01 02:30:00: Running action: Receive from rtds
+2023-10-19 17:09:20.013391 - rtds at 2019-01-01 02:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:20.523967 - rtds at 2019-01-01 02:45:00: Running action: Send to rtds
+2023-10-19 17:09:20.523967 - rtds at 2019-01-01 02:45:00: Received from feeder_to_rtds: {'V1': 1.0392224459178274}
+{'V1': 1.0392224459178274}
+2023-10-19 17:09:20.523967 - rtds at 2019-01-01 02:45:00: Running action: Receive from rtds
+2023-10-19 17:09:20.523967 - rtds at 2019-01-01 02:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:21.016517 - rtds at 2019-01-01 03:00:00: Running action: Send to rtds
+2023-10-19 17:09:21.016517 - rtds at 2019-01-01 03:00:00: Received from feeder_to_rtds: {'V1': 1.039222445918283}
+{'V1': 1.039222445918283}
+2023-10-19 17:09:21.016517 - rtds at 2019-01-01 03:00:00: Running action: Receive from rtds
+2023-10-19 17:09:21.016517 - rtds at 2019-01-01 03:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:22.404428 - rtds at 2019-01-01 03:15:00: Running action: Send to rtds
+2023-10-19 17:09:22.404428 - rtds at 2019-01-01 03:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459204251}
+{'V1': 1.0392224459204251}
+2023-10-19 17:09:22.404428 - rtds at 2019-01-01 03:15:00: Running action: Receive from rtds
+2023-10-19 17:09:22.404428 - rtds at 2019-01-01 03:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:22.906174 - rtds at 2019-01-01 03:30:00: Running action: Send to rtds
+2023-10-19 17:09:22.906174 - rtds at 2019-01-01 03:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459190103}
+{'V1': 1.0392224459190103}
+2023-10-19 17:09:22.906174 - rtds at 2019-01-01 03:30:00: Running action: Receive from rtds
+2023-10-19 17:09:22.906174 - rtds at 2019-01-01 03:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:23.425985 - rtds at 2019-01-01 03:45:00: Running action: Send to rtds
+2023-10-19 17:09:23.425985 - rtds at 2019-01-01 03:45:00: Received from feeder_to_rtds: {'V1': 1.039222445921017}
+{'V1': 1.039222445921017}
+2023-10-19 17:09:23.425985 - rtds at 2019-01-01 03:45:00: Running action: Receive from rtds
+2023-10-19 17:09:23.425985 - rtds at 2019-01-01 03:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:23.960850 - rtds at 2019-01-01 04:00:00: Running action: Send to rtds
+2023-10-19 17:09:23.960850 - rtds at 2019-01-01 04:00:00: Received from feeder_to_rtds: {'V1': 1.0392224459193165}
+{'V1': 1.0392224459193165}
+2023-10-19 17:09:23.960850 - rtds at 2019-01-01 04:00:00: Running action: Receive from rtds
+2023-10-19 17:09:23.960850 - rtds at 2019-01-01 04:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:25.387770 - rtds at 2019-01-01 04:15:00: Running action: Send to rtds
+2023-10-19 17:09:25.387770 - rtds at 2019-01-01 04:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459196495}
+{'V1': 1.0392224459196495}
+2023-10-19 17:09:25.387770 - rtds at 2019-01-01 04:15:00: Running action: Receive from rtds
+2023-10-19 17:09:25.387770 - rtds at 2019-01-01 04:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:25.933005 - rtds at 2019-01-01 04:30:00: Running action: Send to rtds
+2023-10-19 17:09:25.933005 - rtds at 2019-01-01 04:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459171018}
+{'V1': 1.0392224459171018}
+2023-10-19 17:09:25.933005 - rtds at 2019-01-01 04:30:00: Running action: Receive from rtds
+2023-10-19 17:09:25.933005 - rtds at 2019-01-01 04:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:26.493846 - rtds at 2019-01-01 04:45:00: Running action: Send to rtds
+2023-10-19 17:09:26.493846 - rtds at 2019-01-01 04:45:00: Received from feeder_to_rtds: {'V1': 1.039222445918447}
+{'V1': 1.039222445918447}
+2023-10-19 17:09:26.493846 - rtds at 2019-01-01 04:45:00: Running action: Receive from rtds
+2023-10-19 17:09:26.493846 - rtds at 2019-01-01 04:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:27.001263 - rtds at 2019-01-01 05:00:00: Running action: Send to rtds
+2023-10-19 17:09:27.001263 - rtds at 2019-01-01 05:00:00: Received from feeder_to_rtds: {'V1': 1.039222445917516}
+{'V1': 1.039222445917516}
+2023-10-19 17:09:27.001263 - rtds at 2019-01-01 05:00:00: Running action: Receive from rtds
+2023-10-19 17:09:27.001263 - rtds at 2019-01-01 05:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:28.453144 - rtds at 2019-01-01 05:15:00: Running action: Send to rtds
+2023-10-19 17:09:28.453144 - rtds at 2019-01-01 05:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459167454}
+{'V1': 1.0392224459167454}
+2023-10-19 17:09:28.453144 - rtds at 2019-01-01 05:15:00: Running action: Receive from rtds
+2023-10-19 17:09:28.453144 - rtds at 2019-01-01 05:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:28.998578 - rtds at 2019-01-01 05:30:00: Running action: Send to rtds
+2023-10-19 17:09:28.998578 - rtds at 2019-01-01 05:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459175152}
+{'V1': 1.0392224459175152}
+2023-10-19 17:09:28.998578 - rtds at 2019-01-01 05:30:00: Running action: Receive from rtds
+2023-10-19 17:09:28.998578 - rtds at 2019-01-01 05:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:29.498312 - rtds at 2019-01-01 05:45:00: Running action: Send to rtds
+2023-10-19 17:09:29.498312 - rtds at 2019-01-01 05:45:00: Received from feeder_to_rtds: {'V1': 1.0392224459195283}
+{'V1': 1.0392224459195283}
+2023-10-19 17:09:29.498312 - rtds at 2019-01-01 05:45:00: Running action: Receive from rtds
+2023-10-19 17:09:29.498312 - rtds at 2019-01-01 05:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:30.044852 - rtds at 2019-01-01 06:00:00: Running action: Send to rtds
+2023-10-19 17:09:30.044852 - rtds at 2019-01-01 06:00:00: Received from feeder_to_rtds: {'V1': 1.039222445917782}
+{'V1': 1.039222445917782}
+2023-10-19 17:09:30.044852 - rtds at 2019-01-01 06:00:00: Running action: Receive from rtds
+2023-10-19 17:09:30.044852 - rtds at 2019-01-01 06:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:31.458691 - rtds at 2019-01-01 06:15:00: Running action: Send to rtds
+2023-10-19 17:09:31.458691 - rtds at 2019-01-01 06:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459210162}
+{'V1': 1.0392224459210162}
+2023-10-19 17:09:31.458691 - rtds at 2019-01-01 06:15:00: Running action: Receive from rtds
+2023-10-19 17:09:31.458691 - rtds at 2019-01-01 06:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:31.986777 - rtds at 2019-01-01 06:30:00: Running action: Send to rtds
+2023-10-19 17:09:31.996776 - rtds at 2019-01-01 06:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459182948}
+{'V1': 1.0392224459182948}
+2023-10-19 17:09:31.996776 - rtds at 2019-01-01 06:30:00: Running action: Receive from rtds
+2023-10-19 17:09:31.996776 - rtds at 2019-01-01 06:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:32.535502 - rtds at 2019-01-01 06:45:00: Running action: Send to rtds
+2023-10-19 17:09:32.535502 - rtds at 2019-01-01 06:45:00: Received from feeder_to_rtds: {'V1': 1.039222445920725}
+{'V1': 1.039222445920725}
+2023-10-19 17:09:32.535502 - rtds at 2019-01-01 06:45:00: Running action: Receive from rtds
+2023-10-19 17:09:32.535502 - rtds at 2019-01-01 06:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:33.048161 - rtds at 2019-01-01 07:00:00: Running action: Send to rtds
+2023-10-19 17:09:33.048161 - rtds at 2019-01-01 07:00:00: Received from feeder_to_rtds: {'V1': 1.0392224459168078}
+{'V1': 1.0392224459168078}
+2023-10-19 17:09:33.048161 - rtds at 2019-01-01 07:00:00: Running action: Receive from rtds
+2023-10-19 17:09:33.048161 - rtds at 2019-01-01 07:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:34.457800 - rtds at 2019-01-01 07:15:00: Running action: Send to rtds
+2023-10-19 17:09:34.457800 - rtds at 2019-01-01 07:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459209622}
+{'V1': 1.0392224459209622}
+2023-10-19 17:09:34.457800 - rtds at 2019-01-01 07:15:00: Running action: Receive from rtds
+2023-10-19 17:09:34.457800 - rtds at 2019-01-01 07:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:34.997515 - rtds at 2019-01-01 07:30:00: Running action: Send to rtds
+2023-10-19 17:09:34.997515 - rtds at 2019-01-01 07:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459197374}
+{'V1': 1.0392224459197374}
+2023-10-19 17:09:34.997515 - rtds at 2019-01-01 07:30:00: Running action: Receive from rtds
+2023-10-19 17:09:34.997515 - rtds at 2019-01-01 07:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:35.577544 - rtds at 2019-01-01 07:45:00: Running action: Send to rtds
+2023-10-19 17:09:35.577544 - rtds at 2019-01-01 07:45:00: Received from feeder_to_rtds: {'V1': 1.0392224459205774}
+{'V1': 1.0392224459205774}
+2023-10-19 17:09:35.577544 - rtds at 2019-01-01 07:45:00: Running action: Receive from rtds
+2023-10-19 17:09:35.577544 - rtds at 2019-01-01 07:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:36.135370 - rtds at 2019-01-01 08:00:00: Running action: Send to rtds
+2023-10-19 17:09:36.135370 - rtds at 2019-01-01 08:00:00: Received from feeder_to_rtds: {'V1': 1.03922244591995}
+{'V1': 1.03922244591995}
+2023-10-19 17:09:36.135370 - rtds at 2019-01-01 08:00:00: Running action: Receive from rtds
+2023-10-19 17:09:36.135370 - rtds at 2019-01-01 08:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:37.600412 - rtds at 2019-01-01 08:15:00: Running action: Send to rtds
+2023-10-19 17:09:37.600412 - rtds at 2019-01-01 08:15:00: Received from feeder_to_rtds: {'V1': 1.0394208554977302}
+{'V1': 1.0394208554977302}
+2023-10-19 17:09:37.600412 - rtds at 2019-01-01 08:15:00: Running action: Receive from rtds
+2023-10-19 17:09:37.600412 - rtds at 2019-01-01 08:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:38.134908 - rtds at 2019-01-01 08:30:00: Running action: Send to rtds
+2023-10-19 17:09:38.134908 - rtds at 2019-01-01 08:30:00: Received from feeder_to_rtds: {'V1': 1.0394208554931712}
+{'V1': 1.0394208554931712}
+2023-10-19 17:09:38.134908 - rtds at 2019-01-01 08:30:00: Running action: Receive from rtds
+2023-10-19 17:09:38.134908 - rtds at 2019-01-01 08:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:38.694969 - rtds at 2019-01-01 08:45:00: Running action: Send to rtds
+2023-10-19 17:09:38.694969 - rtds at 2019-01-01 08:45:00: Received from feeder_to_rtds: {'V1': 1.0394208554960642}
+{'V1': 1.0394208554960642}
+2023-10-19 17:09:38.694969 - rtds at 2019-01-01 08:45:00: Running action: Receive from rtds
+2023-10-19 17:09:38.694969 - rtds at 2019-01-01 08:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:39.274783 - rtds at 2019-01-01 09:00:00: Running action: Send to rtds
+2023-10-19 17:09:39.274783 - rtds at 2019-01-01 09:00:00: Received from feeder_to_rtds: {'V1': 1.0394208554930227}
+{'V1': 1.0394208554930227}
+2023-10-19 17:09:39.274783 - rtds at 2019-01-01 09:00:00: Running action: Receive from rtds
+2023-10-19 17:09:39.274783 - rtds at 2019-01-01 09:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:40.744917 - rtds at 2019-01-01 09:15:00: Running action: Send to rtds
+2023-10-19 17:09:40.744917 - rtds at 2019-01-01 09:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459238364}
+{'V1': 1.0392224459238364}
+2023-10-19 17:09:40.744917 - rtds at 2019-01-01 09:15:00: Running action: Receive from rtds
+2023-10-19 17:09:40.744917 - rtds at 2019-01-01 09:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:41.288409 - rtds at 2019-01-01 09:30:00: Running action: Send to rtds
+2023-10-19 17:09:41.288409 - rtds at 2019-01-01 09:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459196155}
+{'V1': 1.0392224459196155}
+2023-10-19 17:09:41.288409 - rtds at 2019-01-01 09:30:00: Running action: Receive from rtds
+2023-10-19 17:09:41.288409 - rtds at 2019-01-01 09:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:41.808425 - rtds at 2019-01-01 09:45:00: Running action: Send to rtds
+2023-10-19 17:09:41.808425 - rtds at 2019-01-01 09:45:00: Received from feeder_to_rtds: {'V1': 1.0392224459167787}
+{'V1': 1.0392224459167787}
+2023-10-19 17:09:41.808425 - rtds at 2019-01-01 09:45:00: Running action: Receive from rtds
+2023-10-19 17:09:41.808425 - rtds at 2019-01-01 09:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:42.377169 - rtds at 2019-01-01 10:00:00: Running action: Send to rtds
+2023-10-19 17:09:42.377169 - rtds at 2019-01-01 10:00:00: Received from feeder_to_rtds: {'V1': 1.0392224459201074}
+{'V1': 1.0392224459201074}
+2023-10-19 17:09:42.377169 - rtds at 2019-01-01 10:00:00: Running action: Receive from rtds
+2023-10-19 17:09:42.377169 - rtds at 2019-01-01 10:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:43.835572 - rtds at 2019-01-01 10:15:00: Running action: Send to rtds
+2023-10-19 17:09:43.835572 - rtds at 2019-01-01 10:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459206303}
+{'V1': 1.0392224459206303}
+2023-10-19 17:09:43.835572 - rtds at 2019-01-01 10:15:00: Running action: Receive from rtds
+2023-10-19 17:09:43.835572 - rtds at 2019-01-01 10:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:44.365235 - rtds at 2019-01-01 10:30:00: Running action: Send to rtds
+2023-10-19 17:09:44.365235 - rtds at 2019-01-01 10:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459163604}
+{'V1': 1.0392224459163604}
+2023-10-19 17:09:44.365235 - rtds at 2019-01-01 10:30:00: Running action: Receive from rtds
+2023-10-19 17:09:44.365235 - rtds at 2019-01-01 10:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:44.875891 - rtds at 2019-01-01 10:45:00: Running action: Send to rtds
+2023-10-19 17:09:44.875891 - rtds at 2019-01-01 10:45:00: Received from feeder_to_rtds: {'V1': 1.039222445918607}
+{'V1': 1.039222445918607}
+2023-10-19 17:09:44.875891 - rtds at 2019-01-01 10:45:00: Running action: Receive from rtds
+2023-10-19 17:09:44.875891 - rtds at 2019-01-01 10:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:45.415122 - rtds at 2019-01-01 11:00:00: Running action: Send to rtds
+2023-10-19 17:09:45.415122 - rtds at 2019-01-01 11:00:00: Received from feeder_to_rtds: {'V1': 1.0392224459224768}
+{'V1': 1.0392224459224768}
+2023-10-19 17:09:45.415122 - rtds at 2019-01-01 11:00:00: Running action: Receive from rtds
+2023-10-19 17:09:45.415122 - rtds at 2019-01-01 11:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:46.782849 - rtds at 2019-01-01 11:15:00: Running action: Send to rtds
+2023-10-19 17:09:46.782849 - rtds at 2019-01-01 11:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459207051}
+{'V1': 1.0392224459207051}
+2023-10-19 17:09:46.782849 - rtds at 2019-01-01 11:15:00: Running action: Receive from rtds
+2023-10-19 17:09:46.782849 - rtds at 2019-01-01 11:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:47.339603 - rtds at 2019-01-01 11:30:00: Running action: Send to rtds
+2023-10-19 17:09:47.339603 - rtds at 2019-01-01 11:30:00: Received from feeder_to_rtds: {'V1': 1.039222445919596}
+{'V1': 1.039222445919596}
+2023-10-19 17:09:47.339603 - rtds at 2019-01-01 11:30:00: Running action: Receive from rtds
+2023-10-19 17:09:47.339603 - rtds at 2019-01-01 11:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:47.893684 - rtds at 2019-01-01 11:45:00: Running action: Send to rtds
+2023-10-19 17:09:47.893684 - rtds at 2019-01-01 11:45:00: Received from feeder_to_rtds: {'V1': 1.0392224459171246}
+{'V1': 1.0392224459171246}
+2023-10-19 17:09:47.893684 - rtds at 2019-01-01 11:45:00: Running action: Receive from rtds
+2023-10-19 17:09:47.893684 - rtds at 2019-01-01 11:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:48.429448 - rtds at 2019-01-01 12:00:00: Running action: Send to rtds
+2023-10-19 17:09:48.429448 - rtds at 2019-01-01 12:00:00: Received from feeder_to_rtds: {'V1': 1.0392224459223303}
+{'V1': 1.0392224459223303}
+2023-10-19 17:09:48.429448 - rtds at 2019-01-01 12:00:00: Running action: Receive from rtds
+2023-10-19 17:09:48.429448 - rtds at 2019-01-01 12:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:49.885375 - rtds at 2019-01-01 12:15:00: Running action: Send to rtds
+2023-10-19 17:09:49.885375 - rtds at 2019-01-01 12:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459211175}
+{'V1': 1.0392224459211175}
+2023-10-19 17:09:49.885375 - rtds at 2019-01-01 12:15:00: Running action: Receive from rtds
+2023-10-19 17:09:49.885375 - rtds at 2019-01-01 12:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:50.445179 - rtds at 2019-01-01 12:30:00: Running action: Send to rtds
+2023-10-19 17:09:50.445179 - rtds at 2019-01-01 12:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459202248}
+{'V1': 1.0392224459202248}
+2023-10-19 17:09:50.445179 - rtds at 2019-01-01 12:30:00: Running action: Receive from rtds
+2023-10-19 17:09:50.445179 - rtds at 2019-01-01 12:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:50.974898 - rtds at 2019-01-01 12:45:00: Running action: Send to rtds
+2023-10-19 17:09:50.974898 - rtds at 2019-01-01 12:45:00: Received from feeder_to_rtds: {'V1': 1.0392224459193693}
+{'V1': 1.0392224459193693}
+2023-10-19 17:09:50.974898 - rtds at 2019-01-01 12:45:00: Running action: Receive from rtds
+2023-10-19 17:09:50.974898 - rtds at 2019-01-01 12:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:51.524602 - rtds at 2019-01-01 13:00:00: Running action: Send to rtds
+2023-10-19 17:09:51.524602 - rtds at 2019-01-01 13:00:00: Received from feeder_to_rtds: {'V1': 1.0392224459219477}
+{'V1': 1.0392224459219477}
+2023-10-19 17:09:51.524602 - rtds at 2019-01-01 13:00:00: Running action: Receive from rtds
+2023-10-19 17:09:51.524602 - rtds at 2019-01-01 13:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:52.969676 - rtds at 2019-01-01 13:15:00: Running action: Send to rtds
+2023-10-19 17:09:52.969676 - rtds at 2019-01-01 13:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459214272}
+{'V1': 1.0392224459214272}
+2023-10-19 17:09:52.969676 - rtds at 2019-01-01 13:15:00: Running action: Receive from rtds
+2023-10-19 17:09:52.969676 - rtds at 2019-01-01 13:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:53.509387 - rtds at 2019-01-01 13:30:00: Running action: Send to rtds
+2023-10-19 17:09:53.509387 - rtds at 2019-01-01 13:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459207031}
+{'V1': 1.0392224459207031}
+2023-10-19 17:09:53.509387 - rtds at 2019-01-01 13:30:00: Running action: Receive from rtds
+2023-10-19 17:09:53.509387 - rtds at 2019-01-01 13:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:54.045134 - rtds at 2019-01-01 13:45:00: Running action: Send to rtds
+2023-10-19 17:09:54.045134 - rtds at 2019-01-01 13:45:00: Received from feeder_to_rtds: {'V1': 1.0392224459205135}
+{'V1': 1.0392224459205135}
+2023-10-19 17:09:54.045134 - rtds at 2019-01-01 13:45:00: Running action: Receive from rtds
+2023-10-19 17:09:54.045134 - rtds at 2019-01-01 13:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:54.631834 - rtds at 2019-01-01 14:00:00: Running action: Send to rtds
+2023-10-19 17:09:54.631834 - rtds at 2019-01-01 14:00:00: Received from feeder_to_rtds: {'V1': 1.0392224459185613}
+{'V1': 1.0392224459185613}
+2023-10-19 17:09:54.631834 - rtds at 2019-01-01 14:00:00: Running action: Receive from rtds
+2023-10-19 17:09:54.631834 - rtds at 2019-01-01 14:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:56.152111 - rtds at 2019-01-01 14:15:00: Running action: Send to rtds
+2023-10-19 17:09:56.152111 - rtds at 2019-01-01 14:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459222552}
+{'V1': 1.0392224459222552}
+2023-10-19 17:09:56.152111 - rtds at 2019-01-01 14:15:00: Running action: Receive from rtds
+2023-10-19 17:09:56.152111 - rtds at 2019-01-01 14:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:56.703759 - rtds at 2019-01-01 14:30:00: Running action: Send to rtds
+2023-10-19 17:09:56.703759 - rtds at 2019-01-01 14:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459194699}
+{'V1': 1.0392224459194699}
+2023-10-19 17:09:56.703759 - rtds at 2019-01-01 14:30:00: Running action: Receive from rtds
+2023-10-19 17:09:56.703759 - rtds at 2019-01-01 14:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:57.218899 - rtds at 2019-01-01 14:45:00: Running action: Send to rtds
+2023-10-19 17:09:57.218899 - rtds at 2019-01-01 14:45:00: Received from feeder_to_rtds: {'V1': 1.0392224459176158}
+{'V1': 1.0392224459176158}
+2023-10-19 17:09:57.218899 - rtds at 2019-01-01 14:45:00: Running action: Receive from rtds
+2023-10-19 17:09:57.218899 - rtds at 2019-01-01 14:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:57.753372 - rtds at 2019-01-01 15:00:00: Running action: Send to rtds
+2023-10-19 17:09:57.753372 - rtds at 2019-01-01 15:00:00: Received from feeder_to_rtds: {'V1': 1.039222445919435}
+{'V1': 1.039222445919435}
+2023-10-19 17:09:57.753372 - rtds at 2019-01-01 15:00:00: Running action: Receive from rtds
+2023-10-19 17:09:57.753372 - rtds at 2019-01-01 15:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:59.198687 - rtds at 2019-01-01 15:15:00: Running action: Send to rtds
+2023-10-19 17:09:59.198687 - rtds at 2019-01-01 15:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459183144}
+{'V1': 1.0392224459183144}
+2023-10-19 17:09:59.198687 - rtds at 2019-01-01 15:15:00: Running action: Receive from rtds
+2023-10-19 17:09:59.198687 - rtds at 2019-01-01 15:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:09:59.788646 - rtds at 2019-01-01 15:30:00: Running action: Send to rtds
+2023-10-19 17:09:59.788646 - rtds at 2019-01-01 15:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459210668}
+{'V1': 1.0392224459210668}
+2023-10-19 17:09:59.788646 - rtds at 2019-01-01 15:30:00: Running action: Receive from rtds
+2023-10-19 17:09:59.788646 - rtds at 2019-01-01 15:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:00.338371 - rtds at 2019-01-01 15:45:00: Running action: Send to rtds
+2023-10-19 17:10:00.338371 - rtds at 2019-01-01 15:45:00: Received from feeder_to_rtds: {'V1': 1.03922244591885}
+{'V1': 1.03922244591885}
+2023-10-19 17:10:00.338371 - rtds at 2019-01-01 15:45:00: Running action: Receive from rtds
+2023-10-19 17:10:00.338371 - rtds at 2019-01-01 15:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:00.876248 - rtds at 2019-01-01 16:00:00: Running action: Send to rtds
+2023-10-19 17:10:00.876248 - rtds at 2019-01-01 16:00:00: Received from feeder_to_rtds: {'V1': 1.0392224459180464}
+{'V1': 1.0392224459180464}
+2023-10-19 17:10:00.876248 - rtds at 2019-01-01 16:00:00: Running action: Receive from rtds
+2023-10-19 17:10:00.876248 - rtds at 2019-01-01 16:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:02.294389 - rtds at 2019-01-01 16:15:00: Running action: Send to rtds
+2023-10-19 17:10:02.294389 - rtds at 2019-01-01 16:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459187853}
+{'V1': 1.0392224459187853}
+2023-10-19 17:10:02.294389 - rtds at 2019-01-01 16:15:00: Running action: Receive from rtds
+2023-10-19 17:10:02.294389 - rtds at 2019-01-01 16:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:02.896847 - rtds at 2019-01-01 16:30:00: Running action: Send to rtds
+2023-10-19 17:10:02.896847 - rtds at 2019-01-01 16:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459189876}
+{'V1': 1.0392224459189876}
+2023-10-19 17:10:02.896847 - rtds at 2019-01-01 16:30:00: Running action: Receive from rtds
+2023-10-19 17:10:02.896847 - rtds at 2019-01-01 16:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:03.466555 - rtds at 2019-01-01 16:45:00: Running action: Send to rtds
+2023-10-19 17:10:03.466555 - rtds at 2019-01-01 16:45:00: Received from feeder_to_rtds: {'V1': 1.0392224459191048}
+{'V1': 1.0392224459191048}
+2023-10-19 17:10:03.466555 - rtds at 2019-01-01 16:45:00: Running action: Receive from rtds
+2023-10-19 17:10:03.466555 - rtds at 2019-01-01 16:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:03.995963 - rtds at 2019-01-01 17:00:00: Running action: Send to rtds
+2023-10-19 17:10:03.995963 - rtds at 2019-01-01 17:00:00: Received from feeder_to_rtds: {'V1': 1.0392224459198545}
+{'V1': 1.0392224459198545}
+2023-10-19 17:10:03.995963 - rtds at 2019-01-01 17:00:00: Running action: Receive from rtds
+2023-10-19 17:10:03.995963 - rtds at 2019-01-01 17:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:05.633805 - rtds at 2019-01-01 17:15:00: Running action: Send to rtds
+2023-10-19 17:10:05.634801 - rtds at 2019-01-01 17:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459178212}
+{'V1': 1.0392224459178212}
+2023-10-19 17:10:05.634801 - rtds at 2019-01-01 17:15:00: Running action: Receive from rtds
+2023-10-19 17:10:05.634801 - rtds at 2019-01-01 17:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:06.305745 - rtds at 2019-01-01 17:30:00: Running action: Send to rtds
+2023-10-19 17:10:06.305745 - rtds at 2019-01-01 17:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459182502}
+{'V1': 1.0392224459182502}
+2023-10-19 17:10:06.305745 - rtds at 2019-01-01 17:30:00: Running action: Receive from rtds
+2023-10-19 17:10:06.305745 - rtds at 2019-01-01 17:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:07.015401 - rtds at 2019-01-01 17:45:00: Running action: Send to rtds
+2023-10-19 17:10:07.015401 - rtds at 2019-01-01 17:45:00: Received from feeder_to_rtds: {'V1': 1.039222445919892}
+{'V1': 1.039222445919892}
+2023-10-19 17:10:07.015401 - rtds at 2019-01-01 17:45:00: Running action: Receive from rtds
+2023-10-19 17:10:07.015401 - rtds at 2019-01-01 17:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:07.781142 - rtds at 2019-01-01 18:00:00: Running action: Send to rtds
+2023-10-19 17:10:07.781142 - rtds at 2019-01-01 18:00:00: Received from feeder_to_rtds: {'V1': 1.039222445920308}
+{'V1': 1.039222445920308}
+2023-10-19 17:10:07.781142 - rtds at 2019-01-01 18:00:00: Running action: Receive from rtds
+2023-10-19 17:10:07.781142 - rtds at 2019-01-01 18:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:10.559415 - rtds at 2019-01-01 18:15:00: Running action: Send to rtds
+2023-10-19 17:10:10.559415 - rtds at 2019-01-01 18:15:00: Received from feeder_to_rtds: {'V1': 1.039222445919212}
+{'V1': 1.039222445919212}
+2023-10-19 17:10:10.559415 - rtds at 2019-01-01 18:15:00: Running action: Receive from rtds
+2023-10-19 17:10:10.559415 - rtds at 2019-01-01 18:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:12.304124 - rtds at 2019-01-01 18:30:00: Running action: Send to rtds
+2023-10-19 17:10:12.304124 - rtds at 2019-01-01 18:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459185055}
+{'V1': 1.0392224459185055}
+2023-10-19 17:10:12.304124 - rtds at 2019-01-01 18:30:00: Running action: Receive from rtds
+C:\Users\jwang4\Anaconda3\envs\admsuc7\lib\site-packages\helics\capi.py:3995: UserWarning: This function is deprecated. Use `helicsFederateDisconnect` instead.
+  warnings.warn("This function is deprecated. Use `helicsFederateDisconnect` instead.")
+2023-10-19 17:10:12.304124 - rtds at 2019-01-01 18:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:13.080055 - rtds at 2019-01-01 18:45:00: Running action: Send to rtds
+2023-10-19 17:10:13.080055 - rtds at 2019-01-01 18:45:00: Received from feeder_to_rtds: {'V1': 1.0392224459201596}
+{'V1': 1.0392224459201596}
+2023-10-19 17:10:13.080055 - rtds at 2019-01-01 18:45:00: Running action: Receive from rtds
+2023-10-19 17:10:13.080055 - rtds at 2019-01-01 18:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:13.799270 - rtds at 2019-01-01 19:00:00: Running action: Send to rtds
+2023-10-19 17:10:13.799270 - rtds at 2019-01-01 19:00:00: Received from feeder_to_rtds: {'V1': 1.0392224459180361}
+{'V1': 1.0392224459180361}
+2023-10-19 17:10:13.799270 - rtds at 2019-01-01 19:00:00: Running action: Receive from rtds
+2023-10-19 17:10:13.799270 - rtds at 2019-01-01 19:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:15.681641 - rtds at 2019-01-01 19:15:00: Running action: Send to rtds
+2023-10-19 17:10:15.681641 - rtds at 2019-01-01 19:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459222283}
+{'V1': 1.0392224459222283}
+2023-10-19 17:10:15.681641 - rtds at 2019-01-01 19:15:00: Running action: Receive from rtds
+2023-10-19 17:10:15.681641 - rtds at 2019-01-01 19:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:16.713952 - rtds at 2019-01-01 19:30:00: Running action: Send to rtds
+2023-10-19 17:10:16.713952 - rtds at 2019-01-01 19:30:00: Received from feeder_to_rtds: {'V1': 1.03922244591723}
+{'V1': 1.03922244591723}
+2023-10-19 17:10:16.713952 - rtds at 2019-01-01 19:30:00: Running action: Receive from rtds
+2023-10-19 17:10:16.713952 - rtds at 2019-01-01 19:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:17.569421 - rtds at 2019-01-01 19:45:00: Running action: Send to rtds
+2023-10-19 17:10:17.569421 - rtds at 2019-01-01 19:45:00: Received from feeder_to_rtds: {'V1': 1.0392224459163317}
+{'V1': 1.0392224459163317}
+2023-10-19 17:10:17.569421 - rtds at 2019-01-01 19:45:00: Running action: Receive from rtds
+2023-10-19 17:10:17.569421 - rtds at 2019-01-01 19:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:18.387769 - rtds at 2019-01-01 20:00:00: Running action: Send to rtds
+2023-10-19 17:10:18.387769 - rtds at 2019-01-01 20:00:00: Received from feeder_to_rtds: {'V1': 1.039222445918707}
+{'V1': 1.039222445918707}
+2023-10-19 17:10:18.387769 - rtds at 2019-01-01 20:00:00: Running action: Receive from rtds
+2023-10-19 17:10:18.387769 - rtds at 2019-01-01 20:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:20.513392 - rtds at 2019-01-01 20:15:00: Running action: Send to rtds
+2023-10-19 17:10:20.513392 - rtds at 2019-01-01 20:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459181914}
+{'V1': 1.0392224459181914}
+2023-10-19 17:10:20.513392 - rtds at 2019-01-01 20:15:00: Running action: Receive from rtds
+2023-10-19 17:10:20.513392 - rtds at 2019-01-01 20:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:21.243983 - rtds at 2019-01-01 20:30:00: Running action: Send to rtds
+2023-10-19 17:10:21.243983 - rtds at 2019-01-01 20:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459173705}
+{'V1': 1.0392224459173705}
+2023-10-19 17:10:21.243983 - rtds at 2019-01-01 20:30:00: Running action: Receive from rtds
+2023-10-19 17:10:21.243983 - rtds at 2019-01-01 20:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:23.254368 - rtds at 2019-01-01 20:45:00: Running action: Send to rtds
+2023-10-19 17:10:23.254368 - rtds at 2019-01-01 20:45:00: Received from feeder_to_rtds: {'V1': 1.039222445919967}
+{'V1': 1.039222445919967}
+2023-10-19 17:10:23.254368 - rtds at 2019-01-01 20:45:00: Running action: Receive from rtds
+2023-10-19 17:10:23.254368 - rtds at 2019-01-01 20:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:24.438949 - rtds at 2019-01-01 21:00:00: Running action: Send to rtds
+2023-10-19 17:10:24.438949 - rtds at 2019-01-01 21:00:00: Received from feeder_to_rtds: {'V1': 1.0392224459178052}
+{'V1': 1.0392224459178052}
+2023-10-19 17:10:24.438949 - rtds at 2019-01-01 21:00:00: Running action: Receive from rtds
+2023-10-19 17:10:24.438949 - rtds at 2019-01-01 21:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:26.541515 - rtds at 2019-01-01 21:15:00: Running action: Send to rtds
+2023-10-19 17:10:26.541515 - rtds at 2019-01-01 21:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459162775}
+{'V1': 1.0392224459162775}
+2023-10-19 17:10:26.541515 - rtds at 2019-01-01 21:15:00: Running action: Receive from rtds
+2023-10-19 17:10:26.541515 - rtds at 2019-01-01 21:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:27.310232 - rtds at 2019-01-01 21:30:00: Running action: Send to rtds
+2023-10-19 17:10:27.310232 - rtds at 2019-01-01 21:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459192816}
+{'V1': 1.0392224459192816}
+2023-10-19 17:10:27.310232 - rtds at 2019-01-01 21:30:00: Running action: Receive from rtds
+2023-10-19 17:10:27.310232 - rtds at 2019-01-01 21:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:28.036439 - rtds at 2019-01-01 21:45:00: Running action: Send to rtds
+2023-10-19 17:10:28.036439 - rtds at 2019-01-01 21:45:00: Received from feeder_to_rtds: {'V1': 1.039222445919946}
+{'V1': 1.039222445919946}
+2023-10-19 17:10:28.036439 - rtds at 2019-01-01 21:45:00: Running action: Receive from rtds
+2023-10-19 17:10:28.036439 - rtds at 2019-01-01 21:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:28.725021 - rtds at 2019-01-01 22:00:00: Running action: Send to rtds
+2023-10-19 17:10:28.725021 - rtds at 2019-01-01 22:00:00: Received from feeder_to_rtds: {'V1': 1.039222445919553}
+{'V1': 1.039222445919553}
+2023-10-19 17:10:28.725021 - rtds at 2019-01-01 22:00:00: Running action: Receive from rtds
+2023-10-19 17:10:28.725021 - rtds at 2019-01-01 22:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:30.637044 - rtds at 2019-01-01 22:15:00: Running action: Send to rtds
+2023-10-19 17:10:30.637044 - rtds at 2019-01-01 22:15:00: Received from feeder_to_rtds: {'V1': 1.0392224459173562}
+{'V1': 1.0392224459173562}
+2023-10-19 17:10:30.637044 - rtds at 2019-01-01 22:15:00: Running action: Receive from rtds
+2023-10-19 17:10:30.637044 - rtds at 2019-01-01 22:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:31.587505 - rtds at 2019-01-01 22:30:00: Running action: Send to rtds
+2023-10-19 17:10:31.587505 - rtds at 2019-01-01 22:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459194503}
+{'V1': 1.0392224459194503}
+2023-10-19 17:10:31.587505 - rtds at 2019-01-01 22:30:00: Running action: Receive from rtds
+2023-10-19 17:10:31.587505 - rtds at 2019-01-01 22:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:32.580441 - rtds at 2019-01-01 22:45:00: Running action: Send to rtds
+2023-10-19 17:10:32.580441 - rtds at 2019-01-01 22:45:00: Received from feeder_to_rtds: {'V1': 1.039222445919107}
+{'V1': 1.039222445919107}
+2023-10-19 17:10:32.590438 - rtds at 2019-01-01 22:45:00: Running action: Receive from rtds
+2023-10-19 17:10:32.590438 - rtds at 2019-01-01 22:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:33.404291 - rtds at 2019-01-01 23:00:00: Running action: Send to rtds
+2023-10-19 17:10:33.404291 - rtds at 2019-01-01 23:00:00: Received from feeder_to_rtds: {'V1': 1.0392224459183133}
+{'V1': 1.0392224459183133}
+2023-10-19 17:10:33.404291 - rtds at 2019-01-01 23:00:00: Running action: Receive from rtds
+2023-10-19 17:10:33.404291 - rtds at 2019-01-01 23:00:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:35.639061 - rtds at 2019-01-01 23:15:00: Running action: Send to rtds
+2023-10-19 17:10:35.639061 - rtds at 2019-01-01 23:15:00: Received from feeder_to_rtds: {'V1': 1.039222445917213}
+{'V1': 1.039222445917213}
+2023-10-19 17:10:35.639061 - rtds at 2019-01-01 23:15:00: Running action: Receive from rtds
+2023-10-19 17:10:35.639061 - rtds at 2019-01-01 23:15:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:36.604686 - rtds at 2019-01-01 23:30:00: Running action: Send to rtds
+2023-10-19 17:10:36.604686 - rtds at 2019-01-01 23:30:00: Received from feeder_to_rtds: {'V1': 1.0392224459198744}
+{'V1': 1.0392224459198744}
+2023-10-19 17:10:36.604686 - rtds at 2019-01-01 23:30:00: Running action: Receive from rtds
+2023-10-19 17:10:36.604686 - rtds at 2019-01-01 23:30:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:37.570868 - rtds at 2019-01-01 23:45:00: Running action: Send to rtds
+2023-10-19 17:10:37.570868 - rtds at 2019-01-01 23:45:00: Received from feeder_to_rtds: {'V1': 1.039222445918076}
+{'V1': 1.039222445918076}
+2023-10-19 17:10:37.570868 - rtds at 2019-01-01 23:45:00: Running action: Receive from rtds
+2023-10-19 17:10:37.570868 - rtds at 2019-01-01 23:45:00: Publishing on rtds_to_feeder: {'rtds': 0}
+2023-10-19 17:10:38.420755 - rtds at 2019-01-01 23:59:50: Saving Final Results...
+2023-10-19 17:10:38.420755 - rtds at 2019-01-01 23:59:50: Saving rtds_to_feeder results to: C:\Users\jwang4\Desktop\ADMS-UseCase7\UC7_Cosim\outputs\test40\rtds\rtds_rtds_to_feeder.csv
+2023-10-19 17:10:38.430748 - rtds at 2019-01-01 23:59:50: Send to rtds ran 96 times: Avg. Time: 0.0003124375, Total Time: 0.029994, Max. Time: 0.010002
+2023-10-19 17:10:38.430748 - rtds at 2019-01-01 23:59:50: Receive from rtds ran 96 times: Avg. Time: 0.0001040625, Total Time: 0.00999, Max. Time: 0.00999
+2023-10-19 17:10:38.430748 - rtds at 2019-01-01 23:59:50: Freeing federate
+2023-10-19 17:10:38.490718 - rtds at 2019-01-01 23:59:50: Send to rtds ran 96 times: Avg. Time: 0.0003124375, Total Time: 0.029994, Max. Time: 0.010002
+2023-10-19 17:10:38.490718 - rtds at 2019-01-01 23:59:50: Receive from rtds ran 96 times: Avg. Time: 0.0001040625, Total Time: 0.00999, Max. Time: 0.00999
