@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: helics-cli
+Version: 0.6.1
+Summary: HELICS command line interface
+Home-page: https://github.com/GMLC-TDC/helics-cli
+Download-URL: https://github.com/GMLC-TDC/helics-cli
+Author: Dheepak Krishnamurthy
+License: BSD-compatible
+Keywords: helics,cosimulation
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: tests
+Provides-Extra: docs
+License-File: LICENSE
+
+# helics-cli
+
+This repository has been archived and the functionality has been moved to the python helics interface.
+Use the [pyhelics repo](https://github.com/GMLC-TDC/pyhelics) for tracking further development.

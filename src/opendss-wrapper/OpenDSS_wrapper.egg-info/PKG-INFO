@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: OpenDSS-wrapper
+Version: 1.3
+Summary: Distribution system simulation python wrapper to connect OpenDSSDirect.py with a co-simulation
+Home-page: https://github.nrel.gov/SETO-foresee/OpenDSS-wrapper
+Author: Michael Blonsky
+Author-email: Michael.Blonsky@nrel.gov
