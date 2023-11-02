@@ -104,9 +104,9 @@ class Feeder(Agent):
         #print(self.houses)
         
         self.register_pub('feeder_to_rtds')
-        self.register_pub('feeder_to_rtac')
+        self.register_pub('feeder_to_fems')
         self.register_sub('rtds_to_feeder', default={})
-        self.register_sub('rtac_to_feeder', default={})
+        self.register_sub('fems_to_feeder', default={})
 
     def setup_actions(self):
         print('Check Setup')
@@ -117,7 +117,7 @@ class Feeder(Agent):
     def run_feeder(self):
     
         data_rtds = self.fetch_subscription('rtds_to_feeder')
-        data_rtac = self.fetch_subscription('rtac_to_feeder')
+        data_fems = self.fetch_subscription('fems_to_feeder')
 
         
         ld_pw={}
@@ -162,14 +162,14 @@ class Feeder(Agent):
         self.feeder.run_dss()
         
         to_rtds={}
-        to_rtac={}
+        to_fems={}
         for i in range(0,1):
             
             pmid=self.feeder.get_power(self.all_load_names[i].upper(), element='Load')
             vmid=self.feeder.get_voltage(self.all_load_names[i].upper(), element='Load')
             
             to_rtds['V1']=vmid
-            to_rtac['V1']=vmid
+            to_fems['V1']=vmid
             
         #     print(self.all_load_names[i].upper())
         #     print(pmid)
@@ -178,7 +178,7 @@ class Feeder(Agent):
         # Get house voltages and send to houses
 
         self.publish_to_topic('feeder_to_rtds', to_rtds)
-        self.publish_to_topic('feeder_to_rtac', to_rtac)
+        self.publish_to_topic('feeder_to_fems', to_fems)
 
         
   
