@@ -14,9 +14,9 @@
         },        
 	{
             "directory":"C:/Users/jwang4/Desktop/ADMS-UseCase7/UC7_Cosim",
-            "exec":"python agents/RTAC.py 0.0.0.0:4545",
+            "exec":"python agents/FEMS.py 0.0.0.0:4545",
             "host":"localhost",
-            "name":"rtac"
+            "name":"fems"
         },
         {
             "directory":"C:/Users/jwang4/Desktop/ADMS-UseCase7/UC7_Cosim",
