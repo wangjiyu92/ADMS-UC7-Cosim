@@ -28,7 +28,7 @@ include_feeder = os.environ['FEEDER'] == 'True' if 'FEEDER' in os.environ else T
 include_hems = os.environ['HEMS'] == 'True' if 'HEMS' in os.environ else False
 
 fems_connected=0
-rtds_connected=0
+gridappsd_connected=0
 include_adms=0
 
 # Frequency of Updates
@@ -46,8 +46,8 @@ hems_horizon = timedelta(hours = 8)
 offset_feeder_run = timedelta(seconds=0)
 offset_fems_send= timedelta(seconds=0)
 offset_fems_receive= timedelta(seconds=0)
-offset_rtds_send= timedelta(seconds=0)
-offset_rtds_receive= timedelta(seconds=0)
+offset_gridappsd_send= timedelta(seconds=0)
+offset_gridappsd_receive= timedelta(seconds=0)
 offset_save_results = timedelta(0)
 
 # Input/Output file paths
