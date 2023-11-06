@@ -8,9 +8,9 @@
         },
         {
             "directory":"C:/Users/jwang4/Desktop/ADMS-UseCase7/UC7_Cosim",
-            "exec":"python agents/RTDS.py 0.0.0.0:4545",
+            "exec":"python agents/GridAppsD.py 0.0.0.0:4545",
             "host":"localhost",
-            "name":"rtds"
+            "name":"gridappsd"
         },        
 	{
             "directory":"C:/Users/jwang4/Desktop/ADMS-UseCase7/UC7_Cosim",
